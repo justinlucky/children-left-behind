@@ -25,7 +25,7 @@ body {
 }
 
 p {
-  color: #777777;
+  /* color: #777777; */
   line-height: 1.6em;
   font-size: 16px;
   font-weight: 400;
@@ -38,12 +38,12 @@ h4,
 h5,
 h6 {
   font-family: "Awesome Serif";
-  color: #062265;
+  /* color: #062265; */
   font-weight: 700 !important;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: "Awesome Serif";
-  color: #062265;
+  /* color: #062265; */
   font-weight: 700 !important;
 }
 
@@ -422,4 +422,60 @@ img {
 
 .cBtnTheme {
   background: #91278f;
+}
+
+
+
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400&display=swap');
+
+.contact-wrapper {
+  background-color: #6817AE;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: flex-start;   /* LEFT alignment */
+  /* padding: 80px 0; */
+
+  padding-left: 120px;           /* keep content left but not touching edge */
+  padding-right: 300px;          /* EMPTY SPACE on right for images */
+}
+
+.contact-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.contact-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 650px;
+  margin-bottom: 40px;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.contact-icon {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.contact-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
 }
