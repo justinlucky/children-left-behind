@@ -21,7 +21,10 @@ import ContactPage from '../ContactPage'
 import LoginPage from '../LoginPage'
 import SignUpPage from '../SignUpPage'
 import ForgotPassword from '../ForgotPassword'
-
+import ChildCenter from '../../components/ChildCenter';
+import Cards from '../Cards';
+import Ashajyothi from '../../components/Asha jyothi';
+import Pavani from '../../components/Pavani';
 
 const AllRoute = () => {
 
@@ -51,6 +54,10 @@ const AllRoute = () => {
           <Route path='login' element={<LoginPage />} />
           <Route path='signup' element={<SignUpPage />} />
           <Route path='forgot-password' element={<ForgotPassword />} />
+          <Route path='/childcenter' element={<ChildCenter/>}></Route>
+          <Route path='/cards' element={<Cards/>}></Route>
+          <Route path='/asha' element={<Ashajyothi/>}></Route>
+          <Route path='/pavani' element={<Pavani/>}></Route>
         </Routes>
       </BrowserRouter>
     </div >

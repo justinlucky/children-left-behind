@@ -19,7 +19,7 @@ margin-top: 100px;
 .wpo-counter-area .grid i{
     font-size: 30px;
     color: #fff;
-    background-color: #91278f;
+    background-color: #150523;
     padding: 12px 22px;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ margin-top: 100px;
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(6, 34, 101, .85);
+    background: #F8F0FF;
 }
 
 .wpo-counter-area .wpo-counter-grids .grid,
@@ -66,7 +66,7 @@ margin-top: 100px;
 .wpo-counter-style-2 .wpo-counter-grids .grid p {
     font-size: 18px;
     font-weight: normal;
-    color: #999;
+    color: #37323c;
     padding-top: 5px;
     margin-bottom: 0;
 }
@@ -88,7 +88,7 @@ margin-top: 100px;
 .wpo-counter-style-2 .wpo-counter-grids .grid h2 {
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #1c191e;
     margin: 0;
     line-height: 40px;
     margin-top: 8px;

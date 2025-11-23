@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -19,8 +19,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items:left;
+  justify-content:left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,5 +35,58 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+/* BELOW HERO CONTENT */
+.content-section {
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+.content-section .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.sub-title {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.project-list {
+  margin-top: 15px;
+  padding-left: 20px;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.project-list li {
+  margin-bottom: 6px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+  .description {
+    font-size: 1rem;
   }
 }

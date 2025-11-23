@@ -41,10 +41,10 @@ const Header = () => {
                                     </li>
                                     <li><Link to="/case" className='drop-downn' title="">Our Partners</Link>
                                         <ul>
-                                            <li><Link to="/case" title="">Center GC</Link></li>
-                                            <li><Link to="/case-single" title="">Pavani</Link></li>
-                                            <li><Link to="/case-single" title="">CARDS</Link></li>
-                                            <li><Link to="/case-single" title="">Asha jyothi</Link></li>
+                                            <li><Link to="/childcenter" title="">Center GC</Link></li>
+                                            <li><Link to="/pavani" title="">Pavani</Link></li>
+                                            <li><Link to="/cards" title="">CARDS</Link></li>
+                                            <li><Link to="/asha" title="">Asha jyothi</Link></li>
                                             <li><Link to="/case-single" title="">TrueBlue</Link></li>
                                             <li><Link to="/case-single" title="">Emmi Group</Link></li>
 
@@ -69,8 +69,9 @@ const Header = () => {
                                         </ul>
                                     </li>
                                     <li><Link to="/contact" title="">F.A.Q</Link></li>
+                                    {/* <li><Link to="/contact" title="">Subscribe</Link></li> */}
+                                  
 
-                                    <li><Link to="/contact" title="">Subscribe</Link></li>
 
                                 </ul>
                             </nav>
