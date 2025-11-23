@@ -6,29 +6,29 @@
 --------------------------------------------------------------*/
 .hero {
     position: relative;
-    height: 100vh;
+    height: 100%;
     /** slider controls **/
     /*** hero slider animation ***/
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
     .hero {
         min-height: 420px;
-        height:auto;
+        height:unset;
     }
 }
 
 .hero .slide {
-    height: 100vh;
+    height: 100%;
     position: relative;
     background-repeat: no-repeat;
     position: relative;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
     .hero .slide {
         min-height: 420px;
-        height: auto;
+        height: unset;
     }
 }
 
