@@ -16,22 +16,16 @@ function ChildCenter() {
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
                 <div className="container">
-                    <h2 style={{ textAlign: 'center' }} className="title">Child Guidance Centre (CGC)</h2>
+                     <div>
+                            <h2 className="text-xl font-bold mb-2">
+                            Background
+                            </h2> <br></br>
+                            <p>
+                            Guided by the motto “Reaching the Unreached,” CGC focuses on supporting individuals who are economically disadvantaged, socially excluded, or in need of special care including children with disabilities, orphaned and abandoned children, street children, child labourers, traumatized women, and the elderly
+                            </p>
+                        </div><br></br>
 
-                    <p className="description">
-                        Child Guidance Centre (CGC) is a registered, non-profit voluntary organization
-                        established in 1973 and registered under the Societies Registration Act of India
-                        (Reg. No. 315/1981). Over the past five decades, CGC has worked relentlessly for
-                        the empowerment of children, women, persons with disabilities, and vulnerable
-                        communities across India.
-                    </p>
-
-                    <p className="description">
-                        Guided by the motto “Reaching the Unreached,” CGC focuses on supporting
-                        individuals who are economically disadvantaged, socially excluded, or in need
-                        of special care including children with disabilities, orphaned and abandoned
-                        children, street children, child labourers, traumatized women, and the elderly.
-                    </p>
+                  
 
                     <h3 className="sub-title">Projects</h3>
 
@@ -71,7 +65,7 @@ function ChildCenter() {
                                 Competent”. It has rendered three decades of valuable service for the upliftment of the lives
                                 of the disabled. The school currently has strength of above 205 special children.
                             </p>
-                        </div>
+                        </div><br></br>
 
                         {/* Project 2 */}
                         <div>
@@ -88,7 +82,7 @@ function ChildCenter() {
                                 child concerned. The project has been successfully running since the year 2003. At present
                                 there are 65 inmates in the happy home.
                             </p>
-                        </div>
+                        </div><br></br>
                         {/* Project 3 */}
                         <div>
                             <p className="text-xl font-bold mb-2">
@@ -98,7 +92,7 @@ function ChildCenter() {
 
                                 Toby school is a branch of Child Guidance Center (Special school for the mentally challenged in rural area) established in the year 2002 at Swarnanagar, Ghatkesar. A large number of street children from the Happy Home were diagnosed as mentally challenged. The Toby School provides special services to these children of the Happy Home, apart from special education thus helping them to be independent individuals.
                             </p>
-                        </div>
+                        </div><br></br>
 
                            {/* Project 4 */}
                         <div>
@@ -108,7 +102,7 @@ function ChildCenter() {
                             <p>
                              Balabata is a development initiative for nearly 1200 Dalit children in 4 districts who are in the age group of 5-10 years enrolled in the local primary schools. The teachers in the Primary school are appointed and paid by the State government. Most of the teachers stay in the nearby towns but not in the villages where they are supposed to stay and work. Hence the teachers failed to devote more time to students. The illiterate parents neglect their children’s education. Hence the dropout rate is high. To reduce the dropout rate the Balabata program was started.
                             </p>
-                        </div>
+                        </div><br></br>
                     
                        <div>
                             <p className="text-xl font-bold mb-2">
@@ -119,7 +113,7 @@ function ChildCenter() {
                             Encouraging children in Clean and green activities.<br></br>
                             Enabling their parents to take up Income Generation programs.</p>
                             
-                        </div>
+                        </div><br></br>
                            <div>
                             <p className="text-xl font-bold mb-2">
                                 Project 5: CHEYUTHA PROJECT
@@ -127,7 +121,7 @@ function ChildCenter() {
                             <p>
                            Cheyutha Project is an Income Generating Program wherein the parents of the disabled are provided loans to support better employment. Over the last several years many children/parents have utilized this opportunity and have expressed their satisfaction.
                             </p>
-                        </div>
+                        </div><br></br>
 
                             <div>
                             <p className="text-xl font-bold mb-2">
@@ -136,7 +130,7 @@ function ChildCenter() {
                             <p>
                              Regular Camps are conducted in different districts to identify the disabled and provide them with proper support and referrals and involving several stake holders. Door to door surveys are conducted at regular intervals to identify the handicapped and help them by providing them appropriate information regarding rehabilitation services available. The Community Based Rehabilitation Programs gradually aim at enabling the community to take up the responsibility of the disabled people.
                             </p>
-                        </div>
+                        </div><br></br>
 
                             <div>
                             <p className="text-xl font-bold mb-2">
@@ -145,7 +139,7 @@ function ChildCenter() {
                             <p>
                          “Prevention is better than cure” as such to fight against spreading of HIV/AIDS through cultural programmes is the main endeavor/aim for this unique project to reach the unreached. The cultural team attracts the attention of the public through (Dam Dora) drum beating. Songs and Body theatre is the main medium through which message is conveyed.
                             </p>
-                        </div>
+                        </div><br></br>
                        
                              <div>
                             <p className="text-xl font-bold mb-2">
@@ -154,7 +148,7 @@ function ChildCenter() {
                             <p>
                          The Dr. Ranjan Babu Vocational Junior College was established in the year 2004. The main motive behind starting this college was to provide educational opportunities to those students who would otherwise find it difficult to obtain admission in regular colleges with their low socioeconomic status and grades.
                             </p>
-                        </div>
+                        </div><br></br>
 
                           {/* {9} */}
 
@@ -165,7 +159,7 @@ function ChildCenter() {
                             <p>
                             As a part of this project about 103 permanent houses have been constructed for the villagers with the association of the Andhra Pradesh Housing Board Society. Two Tsunami Shelter homes for the Orphans accommodating 50 orphans each have been built to provide shelter to the children who were left as orphans by the catastrophe
                             </p>
-                        </div>
+                        </div><br></br>
 
 
                            {/* {10} */}
@@ -176,7 +170,7 @@ function ChildCenter() {
                             <p>
                            Free Medical Camps (Dental and Eye Camps) are conducted wherein eye and dental checkups are done. Cases are identified for operations after which they are assisted to get operated. Preventive medicines for a few diseases are distributed.
                             </p>
-                        </div>
+                        </div><br></br>
                            {/* {11} */}
                              <div>
                             <p className="text-xl font-bold mb-2">
@@ -185,7 +179,7 @@ function ChildCenter() {
                             <p>
                           Until now we have installed 4 boring (Water Holes) through the support of POW and we are very grateful to them for supporting this cause.
                             </p>
-                        </div>
+                        </div><br></br>
                            {/* {12} */}
                              <div>
                             <p className="text-xl font-bold mb-2">
@@ -194,7 +188,7 @@ function ChildCenter() {
                             <p>
                          The Vocational Training/Rehabilitation Center provides vocational training for people with all types of Disabilities. This project aims at developing the skills of the deferentially abled and enabling them to be productive members of the society.
                             </p>
-                        </div>
+                        </div><br></br>
                            {/* {13} */}
                              <div>
                             <p className="text-xl font-bold mb-2">
@@ -203,7 +197,7 @@ function ChildCenter() {
                             <p>
                              Child Guidance Center is presently working towards developing human resources in the field of Mental Retardation. The Rehabilitation Council of India has approved the organization to conduct a two year Diploma to prepare professionals (Special Teachers) in the field of Mental Retardation as there is a dearth of professionals in the field of disability (Diploma in Education, Special Education, and Mental Retardation).
                             </p>
-                        </div>
+                        </div><br></br>
                            {/* {14} */}
                              <div>
                             <p className="text-xl font-bold mb-2">
@@ -212,7 +206,7 @@ function ChildCenter() {
                             <p>
                           The Center for the Traumatized Women has been established in Guntur. This center works towards the restoration and rehabilitation of 200 traumatized women (including women with disability), by helping them develop into responsible citizens. Vocational Training in different trades like Bangle Making, Beautician course, Bakery, Gardening, etc. is provided to them to make them self reliant.
                             </p>
-                        </div>
+                        </div><br></br>
 
                            {/* {15} */}
                              <div>
@@ -222,7 +216,7 @@ function ChildCenter() {
                             <p>
                            Government of Andhra Pradesh sanctioned the following Short Term Courses for our institute: Bakery & Confectionery, Beautician Course, Embroidery & Zig-Zag, Pre Primary Teacher Training, Farm Assistant, Gardener Training Course, Accounting Package, DTP and M.S.Office. The purpose of these courses is to generate employment opportunities who could not secure jobs even after acquiring the required qualifications. There is heavy demand for this courses in private and government sectors and the qualified candidate can establish their own entities and earn independently and employee others in their entities.
                             </p>
-                        </div>
+                        </div><br></br>
                            {/* {16} */}
                              <div>
                             <p className="text-xl font-bold mb-2">
@@ -231,7 +225,7 @@ function ChildCenter() {
                             <p>
                           The Dr. Swarnalatha Devi Vocational Junior College was established in the year 2011. The main motive behind starting this college was to provide educational opportunities to the girls belonging to remote rural areas who would otherwise find it difficult to obtain admission in regular colleges with their low socioeconomic status and grades.
                             </p>
-                        </div>
+                        </div><br></br>
                            {/* {17} */}
                              <div>
                             <p className="text-xl font-bold mb-2">
@@ -240,7 +234,7 @@ function ChildCenter() {
                             <p>
                             The Holistic Rehabilitation Facility established at Guntur is an attempt at providing comprehensive rehabilitation services to people with Disabilities. The aim is to empower the differentially abled by offering qualitative rehabilitation services thus enabling them to be integrated into the society by encouraging full participation and protection of their rights. The center will offer various services including Developmental, Intellectual, Audio Logical and Ophthalmological Assessment and Intervention services. The center will work towards preventive and promotional aspects of rehabilitation like education, employment and vocational training, research and manpower development, creation of barrier-free environment.
                             </p>
-                        </div>
+                        </div><br></br>
                            {/* {18} */}
                              <div>
                             <p className="text-xl font-bold mb-2">

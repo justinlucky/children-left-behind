@@ -30,11 +30,11 @@ const Header = () => {
                                     <li><Link to="/case" className='drop-downn' title="">Our Programs</Link>
                                         <ul>
                                             <li><Link to="/disability" title="">Supporting Disability</Link></li>
-                                            <li><Link to="/case-single" title="">Education</Link></li>
-                                            <li><Link to="/case-single" title="">Medical Support</Link></li>
-                                            <li><Link to="/case-single" title="">Medical Support</Link></li>
-                                            <li><Link to="/case-single" title="">Child trafficking</Link></li>
-                                            <li><Link to="/case-single" title="">Trip to India</Link></li>
+                                            <li><Link to="/education" title="">Education</Link></li>
+                                            <li><Link to="/medical" title="">Medical Support</Link></li>
+
+                                            <li><Link to="/childtraffic" title="">Child trafficking</Link></li>
+                                            <li><Link to="/tripofindia" title="">Trip to India</Link></li>
                                             <li><Link to="/case-single" title="">Before/ After school progr</Link></li>
                                             <li><Link to="/case-single" title="">Disaster emergency relie</Link></li>
                                         </ul>

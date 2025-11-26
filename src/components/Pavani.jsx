@@ -25,20 +25,7 @@ function Pavani() {
 
                     <div className="p-6 space-y-6 leading-relaxed text-gray-800">
                         {/* Project 1 */}
-                        <div>
-
-                            <p>
-                                Pavani Special School endeavors to provide children with mental disabilities and hearing impairment with basic life skills that enrich their quality of life and also strives to equip them with the requisite skills to gain<br></br> employment through vocational education.<br></br> <br></br>
-
-                                Presently there are 130 students comprising of both categories i.e., mental disability and hearing impairment. Pavani Special School is primarily a day school and does not have hostel facility. The teaching and non-teaching staff is experienced, dedicated, qualified and well trained in Special Education for both categories of students. The caring, nurturing environment that surrounds the children ensures an effective learning process. Pavani Special School is empowering the mentally disabled and hearing impaired students from all corners of the city of Visakhapatnam by engaging the students in therapeutic and skill-building activities.<br></br><br></br>
-
-                                Pavani Special School is rendering its services in Visakhapatnam City since 1987. The Special School is receiving 70% grant in aid from the Ministry of Social Justice and Empowerment, Government of India since 2000. The Special School is forever grateful and indebted to the several institutions, philanthropists, officials, people representatives and parents of the special children who have extended support to the noble cause over the past 26 years
-                            </p>
-                            <br></br>
-                            <p>
-                                The founders and members of Pavani Special School (PIMHANS) hope to receive the same continued support in the future as well.
-                            </p>
-                        </div>
+                      
 
                         <div>
                             <p className="text-xl font-bold mb-2">

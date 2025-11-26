@@ -3,6 +3,7 @@ import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
 // import "../css";
 import "../App"
+import img from "../images/icons/Frame 232.png"
 function Disability() {
     return (
         <>
@@ -18,20 +19,20 @@ function Disability() {
                 <div className="container">
                     {/* <h2 style={{ textAlign: 'center' }} className="title">Child Guidance Centre (CGC)</h2> */}
 
-                    <p className="description">
+                    {/* <p className="description">
                         we are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
-                    </p>
+                    </p> */}
 
 
 
-                    <h3 className="sub-title">Educational Outreach</h3>
+                    {/* <h3 className="sub-title">Educational Outreach</h3>
                     <p className="description">
                         We have partnered with local educators, colleges, and universities in Southwest Virginia to serve through our sister children’s organizations and through the schools’ established educational institutions in India.
                         Educational Outreach and Mission Trips to India: During our Educational Outreach, we visit schools in India and volunteer our skills and expertise in areas where foreign visitors are allowed. We believe it is very timely and important for us to serve the schools in South India.<br></br>
                         We are seeing how the promise and hope for a better future through education is becoming a reality as we work with at-risk children in the United States and developing world nations. We believe in the value of education to “open doors” for a new way of life for children and youth all around the globe. Every day men, women, and children are trafficked for sex, or forced into labor and/or begging worldwide. Their hearts are crying out for rescue from poverty, abuse and bondage. Children Left Behind is committed to respond to their cry and be an advocate for this very real need. You too, can be a part of the transformation that education provides in a child’s life by giving them a fresh start and a confident hope for a better future! Join us in being a part of the solution.
-                    </p>
+                    </p> */}
 
-                    <h3 className="sub-title">Medical campaigns</h3>
+                    {/* <h3 className="sub-title">Medical campaigns</h3>
                     <p className="description">
                         Children in developing countries suffer from many diseases that may be prevented with proper medical care and preventive medicine. Children Left Behind’s mission is to provide medical care and education to children and their families in developing countries.<br></br> <br></br>
 
@@ -40,16 +41,16 @@ function Disability() {
                         Children Left Behind has partnered with Child Guidance Center in the states of Andhra Pradesh and Telangana, India, to help provide assistance with medical needs. Child Guidance Center provides special schools for children with mental and physical disabilities.<br></br><br></br>
 
                         Most commonly seen disabilities and disorders are intellectual disability (mild, moderate, and severe), autism, epilepsy, ADHD, cerebral palsy, Down’s syndrome, and malnutrition, just to mention a few.
-                    </p>
+                    </p> */}
 
-                    <p className="description">
+                    {/* <p className="description">
                         Children Left Behind is working hard to increase resources through donations, supplies, and medical education.
                         These resources assist in addressing the needs of children suffering from lack of medical resources.
-                    </p>
-                    <p>
+                    </p> */}
+                    {/* <p>
                         Some of the educational needs are:
-                    </p>
-                    <ul className="project-list">
+                    </p> */}
+                    {/* <ul className="project-list">
                         <li>Prenatal care and pregnancy education</li>
                         <li>Causes and prevention of disabilities</li>
                         <li>Preventive medicine and immunization</li>
@@ -65,7 +66,7 @@ function Disability() {
                         <li>Cretinism</li>
                         <li>Progressive metabolic disorders</li>
                         <li>HIV & AIDS</li>
-                    </ul>
+                    </ul> */}
 
                     <h2 className="sub-title mt-5">Supporting Disabled Children</h2>
                     <p className="description">
@@ -89,18 +90,13 @@ function Disability() {
 
                         * The Child Guidance Center encompasses 14 boarding schools for children with disabilities, providing lodging and meals as well as medical care and education appropriate to the ability of each student. A 15th boarding school is currently under construction. See the Partnerships page for details.
                     </p>
+                    <div>
+                        <img style={{width:'100%'}} src= {img}/>
+                    </div> <br></br>
 
-                    <h2 className="sub-title mt-5">Mission to India</h2>
-                    <p className="description">
-                        Traveling to India is a unique and inspiring experience. Children Left Behind organizes and puts together teams of people to travel there together and serve. You will be able to meet the children and staff at the homes, and see first-hand how your contributions help the homes. Frank Viswanath and his team are very gracious hosts, and they do everything they can to make your stay comfortable.<br></br><br></br>
+                  
 
-                        For more information on joining a visiting team, please email: info@childrenleftbehind.org.<br></br><br></br>
-
-                        We invite you to experience first-hand the amazing work we do in the orphanages we support. A trip to an orphanage will change your life. You’ll fall in love with the children, be inspired by their housemothers, meet their social workers, eat in their dining rooms and/or help them with an improvement project—it’s a powerful experience of a lifetime.
-
-                    </p> <br></br>
-
-                    <h2 className="sub-title mt-5">Medical Mission Opportunities</h2>
+                    {/* <h2 className="sub-title mt-5">Medical Mission Opportunities</h2>
                     <p className="description">
                         Children Left Behind’s goal is to put together teams of medical professionals, students, and volunteers to make medical mission trips to India.<br></br><br></br>
 
@@ -108,9 +104,9 @@ function Disability() {
 
                         Contact us if you are interested in volunteering to help be a part of our Medical Outreach program.
 
-                    </p>
+                    </p> */}
 
-                    <h2 className="sub-title mt-5">Act for child protection</h2>
+                    {/* <h2 className="sub-title mt-5">Act for child protection</h2>
                     <p className="description">
                         Children Trafficking in India<br></br>
                         What causes children trafficking? <br></br><br></br>
@@ -200,7 +196,7 @@ function Disability() {
 
                         Contact us if you are interested in volunteering to help be a part of our Medical Outreach program.<br></br><br></br>
 
-                    </p>
+                    </p> */}
 
 
                 </div>

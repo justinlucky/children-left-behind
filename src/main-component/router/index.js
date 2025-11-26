@@ -27,6 +27,10 @@ import Ashajyothi from '../../components/Asha jyothi';
 import Pavani from '../../components/Pavani';
 import Disability from '../Disability';
 import StayInformed from '../../components/StayInformed';
+import Education from '../../components/Education';
+import Medicalcampaigns from '../Medicalcampaigns';
+import ChildTrafficking from '../ChildTrafficking';
+import TripToIndia from '../../components/TripToIndia';
 
 const AllRoute = () => {
 
@@ -62,6 +66,10 @@ const AllRoute = () => {
           <Route path='/pavani' element={<Pavani/>}></Route>
           <Route path='/disability' element={<Disability/>}></Route>
           <Route path='/stayinformed' element={<StayInformed/>}></Route>
+          <Route path='/education' element={<Education/>}></Route>
+          <Route path='/medical' element={<Medicalcampaigns/>}></Route>
+          <Route path='/childtraffic' element={<ChildTrafficking/>}></Route>
+          <Route path='/tripofindia' element={<TripToIndia/>}></Route>
         </Routes>
       </BrowserRouter>
     </div >

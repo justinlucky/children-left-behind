@@ -110,40 +110,31 @@ function StayInformed() {
                         <li>Child abuse is the physical or psychological mistreatment of a child by his or her parents, guardians, or other adults. While there are many different types and degrees of abuse, the one thing they all have in common is the failure to look after a child’s long-term interest. The degree of the abuse, when in the child’s life it occurred and its duration have varying levels of impact on the child. This includes sexual, physical and emotional abuse. Sometimes children hide that they have been abused and may not reveal it until later. Abuse affects children differently and may cause emotional and behavioral problems that require the help of counseling and flexible parenting techniques to help the child heal. Child abuse can range from limited to intentional injury to a long term damage that could impair the development potential of a child. Included in the definition are neglect (acts of omission) and physical, psychological, pre sexual injury (act of commission) by a parent or a caregiver.</li> <br></br>
                     </ul>
 
-                    <h2 style={headingStyle}>Facts on Children</h2> <br></br>
-                    <ul>
-                        <li>There are 20 million street children in India</li> <br></br>
-                        <li>Over 59 million children in India have no access to school.</li> <br></br>
-                        <li>One out of two children between the ages of 6 and 14 has no access to primary education</li> <br></br>
-
-                        <li>Out of 27 million children born in India every year, 2 million do not survive to celebrate their first birthday</li> <br></br>
-                        <li>About 60 million Indian children under the age of 6 live below the poverty line.</li> <br></br>
-                        <li>500,000 children are forced into this commercial sex trade every year.</li> <br></br>
-
-
-
-                        <li>1 out of every 3 girls does not live to see her 15th</li> <br></br>
-                        <li>Every sixth girl child’s death is due to gender discrimination, 2 lakh more girls than boys die every year.</li> <br></br>
-                        <li>53% of the girls in the age group 5 to 9 years are illiterate.</li> <br></br>
-
-                        <li>2 million HIV/AIDS infected children.</li> <br></br>
-                        <li>7% of infants die before their 1st</li> <br></br>
-                        <li>46% of children under 5 are malnourished.</li> <br></br>
-                        <li>India has 17 million child laborers—the highest in the world.</li> <br></br>
-
-                        <li>  Under the age group of 5-14 years, 4.02% of children engaged in economic activities.</li> <br></br>
-                        <li>                        Total of 6.75% children at work, of which 4.73% are boys and 8.93% are girls.</li> <br></br>
-                        <li>                        Sex Ratio under 15 years: 1.06 male(s)/female.</li> <br></br>
-                        <li> Sex Ratio under 15 years: 1.06 male(s)/female.</li> <br></br>
-                        <li>   Infant mortality rate: 57.92</li> <br></br>
-                        <li>     Children Underweight Rate: 18%</li> <br></br>
-                        <li>Life expectancy at birth > male: 63.9 years.</li> <br></br>
-                        <li>Life expectancy at birth > female: 63 years</li> <br></br>
-
-
-
-
+                    <h2 style={headingStyle}>Statistics Of India</h2> 
+                    <ul className="project-list">
+                        <li>There are 20 million street children in India</li>
+                        <li>Over 59 million children in India have no access to school.</li>
+                        <li>One out of two children between the ages of 6 and 14 has no access to primary education.</li>
+                        <li>Out of 27 million children born in India every year, 2 million do not survive to celebrate their first birthday.</li>
+                        <li>About 60 million Indian children under the age of 6 live below the poverty line.</li>
+                        <li>500,000 children are forced into the commercial sex trade every year.</li>
+                        <li>1 out of every 3 girls does not live to see her 15th birthday.</li>
+                        <li>Every sixth girl child's death is due to gender discrimination—2 lakh more girls than boys die every year.</li>
+                        <li>53% of the girls in the age group of 5 to 9 years are illiterate.</li>
+                        <li>2 million children in India are infected with HIV/AIDS.</li>
+                        <li>7% of infants die before their 1st birthday.</li>
+                        <li>46% of children under 5 are malnourished.</li>
+                        <li>India has 17 million child laborers—the highest in the world.</li>
+                        <li>Under the age group of 5–14 years, 4.02% of children are engaged in economic activities.</li>
+                        <li>Total of 6.75% children at work: 4.73% boys and 8.93% girls.</li>
+                        <li>Sex ratio under 15 years: 1.06 males per female.</li>
+                        <li>Infant mortality rate: 57.92.</li>
+                        <li>Children underweight rate: 18%.</li>
+                        <li>Life expectancy at birth (male): 63.9 years.</li>
+                        <li>Life expectancy at birth (female): 63 years.</li>
                     </ul>
+
+
                 </main>
 
             </div>
