@@ -87,7 +87,7 @@ const menus = [
     {
         id: 5,
         title: 'Stay Informed',
-        link: '/blog',
+        link: '/stayinformed',
 
     },
     // {
@@ -104,7 +104,7 @@ const menus = [
     {
         id: 8,
         title: 'F.A.Q',
-        link: '/contact',
+        link: '/faq',
     },
     // {
     //     id: 9,
@@ -148,27 +148,45 @@ export default class MobileMenu extends Component {
                         {menus.map(item => {
                             return (
                                 <li key={item.id}>
-                                    {item.submenu ? <p onClick={this.setIsOpen(item.id)}>
-                                        {item.title}
-                                        {item.submenu ? <i className="fa fa-angle-right" aria-hidden="true"></i> : ''}
-                                    </p> : <Link to={item.link}>{item.title}</Link>}
-                                    {item.submenu ?
+                                    {item.submenu ? (
+                                        <p onClick={this.setIsOpen(item.id)}>
+                                            {item.title}
+                                            {item.submenu ? (
+                                                <i className="fa fa-angle-right" aria-hidden="true"></i>
+                                            ) : ''}
+                                        </p>
+                                    ) : (
+                                        <Link to={item.link} onClick={this.menuHandler}>
+                                            {item.title}
+                                        </Link>
+                                    )}
+
+                                    {item.submenu ? (
                                         <Collapse isOpen={item.id === isOpen}>
                                             <Card>
                                                 <CardBody>
                                                     <ul>
                                                         {item.submenu.map(submenu => (
-                                                            <li key={submenu.id}><Link className="active" to={submenu.link}>{submenu.title}</Link></li>
+                                                            <li key={submenu.id}>
+                                                                <Link
+                                                                    className="active"
+                                                                    to={submenu.link}
+                                                                    onClick={this.menuHandler}
+                                                                >
+                                                                    {submenu.title}
+                                                                </Link>
+                                                            </li>
                                                         ))}
                                                     </ul>
                                                 </CardBody>
                                             </Card>
                                         </Collapse>
-                                        : ''}
+                                    ) : ''}
                                 </li>
                             )
                         })}
                     </ul>
+
 
                 </div>
 
