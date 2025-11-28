@@ -1,6 +1,7 @@
 .tilt-wrapper {
   width: 100%;
-  padding: 40px 0;
+  padding: 100px 0;
+  height: 300px;
 }
 
 .tilt-card {
@@ -24,21 +25,44 @@
 .rotate-1 img {
   transform: rotate(-6deg);
 }
+
 .rotate-2 img {
   transform: rotate(3deg);
 }
+
 .rotate-3 img {
   transform: rotate(-5deg);
 }
+
 .rotate-4 img {
   transform: rotate(5deg);
 }
+
 /* SPACE BETWEEN SLIDES */
 .tilt-wrapper .slick-slide {
-  margin: 0 12px;   /* Adjust space as you like (left+right) */
+  margin: 0 12px;
+  /* Adjust space as you like (left+right) */
 }
 
 /* Fix slick overflow cutting */
 .tilt-wrapper .slick-list {
   margin: 0 -12px;
+}
+
+@media(max-width:992px) {
+  .rotate-1 img {
+    transform: unset;
+  }
+
+  .rotate-2 img {
+    transform: unset;
+  }
+
+  .rotate-3 img {
+    transform: unset;
+  }
+
+  .rotate-4 img {
+    transform: unset;
+  }
 }

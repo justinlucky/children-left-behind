@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import Header from '../../components/header'
 import Hero3 from '../../components/hero3'
 import Mission from '../../components/mission'
@@ -17,23 +17,23 @@ import Lifeofchild from '../../components/lifeofchild'
 import Needs from '../../components/needs'
 
 
-const HomePage3 =() => {
-    return(
+const HomePage3 = () => {
+    return (
         <Fragment>
-            <Header/>
-            <Hero3/>
-             <CounterSection/>
-          
-            <About/>
-              <Mission subclass={'section-padding'}/>
-              <Howworks/>
-              <Lifeofchild/>
-            <CaseSlide/>
-            <BlogSection/>
-            <Needs/>
-            <CtaSection ctaclass={'wpo-cta-area-2'}/>
-            <Footer/>
-            <Scrollbar/>
+            <Header />
+            <Hero3 />
+            <CounterSection />
+
+            <About />
+            <Mission subclass={'section-padding'} />
+            <Howworks />
+            <Lifeofchild />
+            <CaseSlide />
+            <BlogSection />
+            <Needs />
+            <CtaSection ctaclass={'wpo-cta-area-2'} />
+            <Footer />
+            <Scrollbar />
         </Fragment>
     )
 };

@@ -4,7 +4,7 @@ import "./style.css";
 
 const ValuesSection = () => {
     return (
-        <div className="container values">
+        <div className="container values pt-4">
             <div className="row align-items-center g-5">
 
                 {/* LEFT TEXT CONTENT */}

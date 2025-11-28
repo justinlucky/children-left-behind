@@ -1,11 +1,10 @@
-
 .wpo-cta-area,
 .wpo-cta-area-2 {
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url('../../images/cta.jpg') no-repeat center center / cover;
+    background: url('../../images/bottom-layer.png') no-repeat center center / cover;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -88,7 +87,7 @@
     background: transparent;
 }
 
-@media(max-width:450px){
+@media(max-width:450px) {
     .wpo-cta-text .theme-btn {
         margin-right: 4px;
     }

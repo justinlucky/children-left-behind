@@ -8,10 +8,10 @@ import ms5 from '../../images/about6.png'
 import './style.css'
 
 const Mission = (props) => {
-    return(
+    return (
         <div className={`wpo-mission-area ${props.subclass}`}>
             <div className="container">
-               
+
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
@@ -23,25 +23,27 @@ const Mission = (props) => {
                 </div>
                 <div className="wpo-mission-wrap">
                     <div className="row align-items-center">
-                         <div className='col-lg-6'>
-     <div className="wpo-mission-content">
-                                    <h2>Clean Water</h2>
-                                    <p>Lorem ipsum dolor amet cosectetur adipiscing, sed do eiusmod.</p>
-                                </div>
+                        <div className='col-lg-6'>
+                            <div className="wpo-mission-content">
+                                <h2>Children Guidance center</h2>
+                                <h2>Community and rural development society</h2>
+                                <h2>Aasha jyothi Welfare</h2>
+                                <h2>Pavani special school</h2>
+                            </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-5">
-                                    <img src={ms5} alt=""/>
+                                    <img src={ms5} alt="" />
                                 </div>
-                           
+
                             </div>
                         </div>
-                       
-                      
+
+
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
-                               
+
                                 <div className="wpo-mission-content">
                                     <p>The Child Guidance Center encompasses 14 boarding schools* for children with disabilities, providing lodging and meals as well as medical care and education appropriate to the ability of each student. A 15th boarding school is currently under construction.</p>
                                 </div>

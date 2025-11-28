@@ -36,7 +36,7 @@ const Header = () => {
                                             <li><Link to="/childtraffic" title="">Child trafficking</Link></li>
                                             <li><Link to="/tripofindia" title="">Trip to India</Link></li>
                                             <li><Link to="/nurturingplaytime" title="">Before/ After school progr</Link></li>
-                                            <li><Link to="/disasterrelief" title="">Disaster emergency relie</Link></li>
+                                            <li><Link to="/disasterrelief" title="">Disaster emergency relief</Link></li>
                                         </ul>
                                     </li>
                                     <li><Link to="/case" className='drop-downn' title="">Our Partners</Link>
@@ -70,7 +70,7 @@ const Header = () => {
                                     </li>
                                     <li><Link to="/contact" title="">F.A.Q</Link></li>
                                     {/* <li><Link to="/contact" title="">Subscribe</Link></li> */}
-                                  
+
 
 
                                 </ul>

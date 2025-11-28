@@ -1,7 +1,10 @@
 import React from "react";
-import blog1 from "../../images/blog/img-1.jpg";
-import blog2 from "../../images/blog/img-2.jpg";
-import blog3 from "../../images/blog/img-3.jpg";
+import blog1 from "../../images/testi/1.jpg";
+import blog2 from "../../images/testi/2.jpg";
+import blog3 from "../../images/testi/3.jpg";
+import photo1 from "../../images/testi/testi-1.png";
+import photo2 from "../../images/testi/testi-2.png";
+import photo3 from "../../images/testi/testi-3.png";
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -43,7 +46,7 @@ const TestimonialCards = () => {
                 </p>
 
                 <div className="testimonial-user">
-                  <img src={blog1} className="user-img" alt="" />
+                  <img src={photo1} className="user-img" alt="" />
                   <div>
                     <h5>Loki Bright</h5>
                     <span>Founder, Bitcoin (BTC)</span>
@@ -65,7 +68,7 @@ const TestimonialCards = () => {
                 </p>
 
                 <div className="testimonial-user">
-                  <img src={blog2} className="user-img" alt="" />
+                  <img src={photo2} className="user-img" alt="" />
                   <div>
                     <h5>Stephen Summers</h5>
                     <span>Product Manager, Meta</span>
@@ -87,7 +90,7 @@ const TestimonialCards = () => {
                 </p>
 
                 <div className="testimonial-user">
-                  <img src={blog3} className="user-img" alt="" />
+                  <img src={photo3} className="user-img" alt="" />
                   <div>
                     <h5>Gwenethe Macy</h5>
                     <span>UI Designer, Booking.com</span>

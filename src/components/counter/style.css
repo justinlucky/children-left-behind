@@ -4,19 +4,23 @@
     /* background: url('../../images/counter/img-1.png') no-repeat center center / cover; */
     position: relative;
 }
-.wpo-counter-area{
-margin-top: 100px;
+
+.wpo-counter-area {
+    margin-top: 100px;
 }
-.wpo-counter-area .grid div{
+
+.wpo-counter-area .grid div {
     text-align: left;
 }
-.wpo-counter-area .grid{
+
+.wpo-counter-area .grid {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.wpo-counter-area .grid i{
+
+.wpo-counter-area .grid i {
     font-size: 30px;
     color: #fff;
     background-color: #150523;
@@ -25,7 +29,8 @@ margin-top: 100px;
     align-items: center;
     justify-content: center;
 }
-.wpo-counter-area:before,
+
+/* .wpo-counter-area:before,
 .wpo-counter-style-2:before {
     position: absolute;
     content: "";
@@ -34,16 +39,25 @@ margin-top: 100px;
     width: 100%;
     height: 100%;
     background: #F8F0FF;
-}
+} */
 
 .wpo-counter-area .wpo-counter-grids .grid,
 .wpo-counter-style-2 .wpo-counter-grids .grid {
-    width: 24%;
+    width: fit-content;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     text-align: center;
     position: relative;
+}
+
+.wpo-counter-grids .col-lg-3 .grid {
+    background: #F8F0FF;
+    padding: 12px 22px;
+}
+
+.wpo-counter-grids .col-lg-3 {
+    padding: 0px;
 }
 
 .wpo-counter-area .wpo-counter-grids .grid:before,
@@ -64,7 +78,7 @@ margin-top: 100px;
 
 .wpo-counter-area .wpo-counter-grids .grid p,
 .wpo-counter-style-2 .wpo-counter-grids .grid p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: normal;
     color: #37323c;
     padding-top: 5px;
@@ -86,20 +100,20 @@ margin-top: 100px;
 
 .wpo-counter-area .wpo-counter-grids .grid h2,
 .wpo-counter-style-2 .wpo-counter-grids .grid h2 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     color: #1c191e;
     margin: 0;
     line-height: 40px;
     margin-top: 8px;
-    padding-bottom: 15px;
+    padding-bottom: 1px;
 }
 
 @media(max-width: 1200px) {
 
     .wpo-counter-area .wpo-counter-grids .grid,
     .wpo-counter-style-2 .wpo-counter-grids .grid {
-        width: 23%;
+        width: fit-content;
     }
 }
 
