@@ -1,82 +1,86 @@
-import React from "react";
-import "./style.css"; // optional styles
+import React, { useState } from "react";
+import "./style.css"; // create this file
 
-const Faq = () => {
-    const faqs = [
-        {
-            q: "What is Children Left Behind?",
-            a: "Children Left Behind is a non-profit organization dedicated to supporting children from underserved communities by providing education, basic needs, medical care, and developmental support."
-        },
-        {
-            q: "How does my donation help children?",
-            a: "Your donation directly supports programs such as nutrition support, education kits, health care access, counselling, safe shelter, and community-based child development activities."
-        },
-        {
-            q: "Is my donation tax-deductible?",
-            a: "Yes. All contributions are processed through registered non-profit partners, and eligible donors receive a tax-deduction receipt after donation."
-        },
-        {
-            q: "How can I volunteer?",
-            a: "You can join as a volunteer by signing up on our 'Join Hands' page. Volunteers help with events, awareness drives, tutoring, fundraising, and community outreach."
-        },
-        {
-            q: "Do you work only in India?",
-            a: "Our mission began in India, but we are expanding through global partnerships to reach children in developing countries who lack access to basic needs."
-        },
-        {
-            q: "How do you ensure the safety of children?",
-            a: "Our team follows strict child-protection guidelines, background checks for volunteers, partner verification, and constant monitoring of on-ground activities."
-        },
-        {
-            q: "Can I sponsor a child directly?",
-            a: "Yes. You can sponsor a child's education, meals, or healthcare through our monthly sponsorship programs. Updates and progress reports are shared regularly."
-        },
-        {
-            q: "How are funds utilized?",
-            a: "80% of all donations go directly to child programs such as education kits, meals, rehabilitation, and medical support. The remaining is used for administration and outreach activities."
-        },
-        {
-            q: "Can I partner my organization with Children Left Behind?",
-            a: "Absolutely. We collaborate with schools, corporates, NGOs, and community leaders to scale our impact. Contact us through our partnership inquiry form."
-        },
-        {
-            q: "How can I stay informed about your work?",
-            a: "You can subscribe to our newsletter or follow us on social media for updates, stories of impact, events, and programs."
-        }
-    ];
+const faqData = [
+    {
+        question: "What is Children Left Behind?",
+        answer:
+            "Children Left Behind is a non-profit organization dedicated to supporting children in underserved communities by improving access to education, basic needs, and opportunities for a better future.",
+    },
+    {
+        question: "How does my donation help?",
+        answer:
+            "Your donation directly supports child education, food assistance, healthcare, and community programs that uplift vulnerable children and families.",
+    },
+    {
+        question: "Is my donation tax-deductible?",
+        answer:
+            "Yes, all donations made to Children Left Behind are tax-deductible as permitted by local law.",
+    },
+    {
+        question: "How can I volunteer?",
+        answer:
+            "You can volunteer by joining our on-ground programs, events, or remote support initiatives. Visit the Volunteer page to register.",
+    },
+    {
+        question: "Where does Children Left Behind operate?",
+        answer:
+            "We operate in multiple developing regions, focusing on rural communities and areas with limited access to education and healthcare.",
+    },
+    {
+        question: "Can I sponsor a child?",
+        answer:
+            "Yes! You can sponsor a child’s education, nutrition, or healthcare. Sponsorship details are available on our Sponsor page.",
+    },
+    {
+        question: "How do you ensure transparency?",
+        answer:
+            "We maintain complete transparency through regular reports, audited financials, and real-time project updates.",
+    },
+    {
+        question: "What programs do you run?",
+        answer:
+            "We run programs related to child education, food security, healthcare, awareness campaigns, and community development.",
+    },
+    {
+        question: "Can businesses or groups partner with you?",
+        answer:
+            "Yes, we welcome corporate partnerships, community groups, and NGOs to collaborate on impactful child welfare programs.",
+    },
+    {
+        question: "How do I get updates about your work?",
+        answer:
+            "You can subscribe to our newsletter or follow our official social media channels for regular updates.",
+    },
+];
+
+const Faqs = () => {
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    const toggleFaq = (index) => {
+        setActiveIndex(activeIndex === index ? null : index);
+    };
 
     return (
-        <div className="faq-page container py-5">
-            <div className="text-center mb-5">
-                <span className="faq-tag">FAQs</span>
-                <h1 className="faq-title">Frequently Asked Questions</h1>
-                <p className="faq-subtitle">
-                    Find answers to the most commonly asked questions about our mission,
-                    donations, child programs, and how you can make a difference.
-                </p>
-            </div>
+        <div className="faq-container">
+            <h2 className="faq-title">Frequently Asked Questions</h2>
 
-            <div className="accordion" id="faqAccordion">
-                {faqs.map((item, index) => (
-                    <div className="accordion-item" key={index}>
-                        <h2 className="accordion-header" id={`heading-${index}`}>
-                            <button
-                                className="accordion-button collapsed"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target={`#collapse-${index}`}
-                                aria-expanded="false"
-                            >
-                                {item.q}
-                            </button>
-                        </h2>
+            <div className="faq-list">
+                {faqData.map((faq, index) => (
+                    <div className="faq-item" key={index}>
+                        <button
+                            className={`faq-question ${activeIndex === index ? "active" : ""}`}
+                            onClick={() => toggleFaq(index)}
+                        >
+                            {faq.question}
+                            <span className="faq-icon">{activeIndex === index ? "-" : "+"}</span>
+                        </button>
 
                         <div
-                            id={`collapse-${index}`}
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#faqAccordion"
+                            className={`faq-answer ${activeIndex === index ? "open" : ""
+                                }`}
                         >
-                            <div className="accordion-body">{item.a}</div>
+                            <p>{faq.answer}</p>
                         </div>
                     </div>
                 ))}
@@ -85,4 +89,4 @@ const Faq = () => {
     );
 };
 
-export default Faq;
+export default Faqs;
