@@ -20,7 +20,7 @@ import Needs from '../../components/needs'
 const HomePage3 = () => {
     return (
         <Fragment>
-            <Header />
+
             <Hero3 />
             <CounterSection />
 
@@ -32,7 +32,7 @@ const HomePage3 = () => {
             <BlogSection />
             <Needs />
             <CtaSection ctaclass={'wpo-cta-area-2'} />
-            <Footer />
+
             <Scrollbar />
         </Fragment>
     )

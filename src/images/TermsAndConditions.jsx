@@ -62,7 +62,6 @@ function TermsAndConditions() {
         <>
             {/* HERO SECTION */}
             <section className="hero-section">
-                <Header />
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
             </section>
@@ -195,10 +194,10 @@ function TermsAndConditions() {
                     </p>
 
 
-                      <h2 style={{ color: "#1c191E" }}>Governing Law</h2><br></br>
+                    <h2 style={{ color: "#1c191E" }}>Governing Law</h2><br></br>
 
                     <p className="description">
-                       This Children Left Behind website and the Restricted Sites are controlled and operated by Children Left Behind from its principal office in the Commonwealth of Virginia, USA. The laws of the Commonwealth of Virginia govern these Restricted Sites Terms and Conditions and your use of the Restricted Sites. We recognize that it is possible for you to obtain access to the Restricted Sites from any jurisdiction in the world, but Children Left Behind has no practical ability to prevent such access. The Restricted Sites has been designed to comply with the laws of the Commonwealth of Virginia and the United States. Registrants who choose to access the Restricted Sites from other locations do so on their own initiative and are responsible for compliance with local laws, if and to the extent local laws are applicable. If any material on the Restricted Sites, or your use of the Restricted Sites, is contrary to the laws of the place where you are when you access it, then the Restricted Sites are not intended for you and we ask you not to use the Restricted Sites. You may not use or export materials on the Restricted Sites in violation of United States export laws and regulations. The Restricted Sites are not intended to subject Children Left Behind to the laws or jurisdiction of any state, country or territory other than the Commonwealth of Virginia and the United States of America
+                        This Children Left Behind website and the Restricted Sites are controlled and operated by Children Left Behind from its principal office in the Commonwealth of Virginia, USA. The laws of the Commonwealth of Virginia govern these Restricted Sites Terms and Conditions and your use of the Restricted Sites. We recognize that it is possible for you to obtain access to the Restricted Sites from any jurisdiction in the world, but Children Left Behind has no practical ability to prevent such access. The Restricted Sites has been designed to comply with the laws of the Commonwealth of Virginia and the United States. Registrants who choose to access the Restricted Sites from other locations do so on their own initiative and are responsible for compliance with local laws, if and to the extent local laws are applicable. If any material on the Restricted Sites, or your use of the Restricted Sites, is contrary to the laws of the place where you are when you access it, then the Restricted Sites are not intended for you and we ask you not to use the Restricted Sites. You may not use or export materials on the Restricted Sites in violation of United States export laws and regulations. The Restricted Sites are not intended to subject Children Left Behind to the laws or jurisdiction of any state, country or territory other than the Commonwealth of Virginia and the United States of America
                     </p>
 
                 </main>

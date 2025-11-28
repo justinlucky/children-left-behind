@@ -9,7 +9,6 @@ function ChildTrafficking() {
         <>
             {/* 🌟 HERO SECTION */}
             <section className="hero-section">
-                <Header />
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
             </section>

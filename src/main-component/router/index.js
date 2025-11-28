@@ -35,6 +35,9 @@ import DisasterRelief from '../../components/DisasterRelief';
 import NurturingPlaytime from '../../components/NurturingPlaytime';
 import ContactUs from '../../components/ContactUs';
 import TermsAndConditions from '../../images/TermsAndConditions';
+import Faq from '../../components/faq';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
 
 
 const AllRoute = () => {
@@ -42,6 +45,7 @@ const AllRoute = () => {
   return (
     <div className="App">
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route exact path='/' element={<Homepage3 />} />
           <Route path='home' element={<Homepage />} />
@@ -55,6 +59,7 @@ const AllRoute = () => {
           <Route path='donate' element={<DonatePage />} />
           <Route path='volunteer' element={<VolunteerPage />} />
           <Route path='blog' element={<BlogPage />} />
+          <Route path='faq' element={<Faq />} />
           <Route path='blog-left' element={<BlogPageLeft />} />
           <Route path='blog-fullwidth' element={<BlogPageFullwidth />} />
           <Route path='blog-details' element={<BlogDetails />} />
@@ -65,21 +70,22 @@ const AllRoute = () => {
           <Route path='login' element={<LoginPage />} />
           <Route path='signup' element={<SignUpPage />} />
           <Route path='forgot-password' element={<ForgotPassword />} />
-          <Route path='/childcenter' element={<ChildCenter/>}></Route>
-          <Route path='/cards' element={<Cards/>}></Route>
-          <Route path='/asha' element={<Ashajyothi/>}></Route>
-          <Route path='/pavani' element={<Pavani/>}></Route>
-          <Route path='/disability' element={<Disability/>}></Route>
-          <Route path='/stayinformed' element={<StayInformed/>}></Route>
-          <Route path='/education' element={<Education/>}></Route>
-          <Route path='/medical' element={<Medicalcampaigns/>}></Route>
-          <Route path='/childtraffic' element={<ChildTrafficking/>}></Route>
-          <Route path='/tripofindia' element={<TripToIndia/>}></Route>
-          <Route path='/disasterrelief' element={<DisasterRelief/>}></Route>
-          <Route path='/nurturingplaytime' element={<NurturingPlaytime/>}></Route>
-          <Route path='/contactus' element={<ContactUs/>}></Route>
-          <Route path='/termsandconditions' element={<TermsAndConditions/>}></Route>
+          <Route path='/childcenter' element={<ChildCenter />}></Route>
+          <Route path='/cards' element={<Cards />}></Route>
+          <Route path='/asha' element={<Ashajyothi />}></Route>
+          <Route path='/pavani' element={<Pavani />}></Route>
+          <Route path='/disability' element={<Disability />}></Route>
+          <Route path='/stayinformed' element={<StayInformed />}></Route>
+          <Route path='/education' element={<Education />}></Route>
+          <Route path='/medical' element={<Medicalcampaigns />}></Route>
+          <Route path='/childtraffic' element={<ChildTrafficking />}></Route>
+          <Route path='/tripofindia' element={<TripToIndia />}></Route>
+          <Route path='/disasterrelief' element={<DisasterRelief />}></Route>
+          <Route path='/nurturingplaytime' element={<NurturingPlaytime />}></Route>
+          <Route path='/contactus' element={<ContactUs />}></Route>
+          <Route path='/termsandconditions' element={<TermsAndConditions />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div >
   );

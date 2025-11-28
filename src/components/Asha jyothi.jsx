@@ -2,39 +2,38 @@ import React from "react";
 import heroImg from "../images/icons/gc.png";
 import Header from "../components/header";
 import heroDesktop from "../images/icons/asha.png";
-import heroMobile from "../images/icons/asha-m.png"; 
+import heroMobile from "../images/icons/asha-m.png";
 import { useState, useEffect } from "react";
 // import "../css";
 import "../App"
 function Ashajyothi() {
-      const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    const checkScreen = () => setIsMobile(window.innerWidth <= 768);
-    checkScreen();
+    useEffect(() => {
+        const checkScreen = () => setIsMobile(window.innerWidth <= 768);
+        checkScreen();
 
-    window.addEventListener("resize", checkScreen);
-    return () => window.removeEventListener("resize", checkScreen);
-  }, []);
+        window.addEventListener("resize", checkScreen);
+        return () => window.removeEventListener("resize", checkScreen);
+    }, []);
 
 
     return (
         <>
             {/* 🌟 HERO SECTION */}
-                 <section className="hero-section" style={{ position: "relative" }}>
-        <Header />
+            <section className="hero-section" style={{ position: "relative" }}>
 
-        {/* Only ONE image will show based on screen size */}
-        <img
-          src={isMobile ? heroMobile : heroDesktop}
-          alt="Hero"
-          style={{
-            width: "100%",
-            height: "auto",
-            display: "block",
-          }}
-        />
-      </section>
+                {/* Only ONE image will show based on screen size */}
+                <img
+                    src={isMobile ? heroMobile : heroDesktop}
+                    alt="Hero"
+                    style={{
+                        width: "100%",
+                        height: "auto",
+                        display: "block",
+                    }}
+                />
+            </section>
 
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">

@@ -21,7 +21,6 @@ function Pavani() {
         <>
             {/* 🌟 HERO SECTION */}
             <section className="hero-section" style={{ position: "relative" }}>
-                <Header />
 
                 {/* Only ONE image will show based on screen size */}
                 <img
@@ -139,7 +138,7 @@ function Pavani() {
                 </div>
             </section>
 
-           
+
         </>
     );
 }

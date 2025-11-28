@@ -1,0 +1,38 @@
+.faq-tag {
+    color: #9c27b0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.faq-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.faq-subtitle {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f7eefc;
+    color: #7a1ab0;
+}
