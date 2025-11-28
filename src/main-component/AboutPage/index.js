@@ -25,23 +25,22 @@ import TiltCarousel from '../../components/TiltCarousel';
 const CasePage = () => {
     return (
         <Fragment>
-            <Header />
             {/* <PageTitle pageTitle={'About Us'} pagesub={'About'}/>  */}
             {/* <VedioCta/> */}
             <AboutHero />
             <WhatWeDo />
-            <CounterSection/>
-            <TiltCarousel/>
+            <CounterSection />
+            <TiltCarousel />
             <AboutMission subclass={'section-padding'} />
             <OurMission />
             <LeaderShip />
             <ValuesSection />
-             <Howworks/>
-             <Mission subclass={'section-padding'}/>
-             <BlogSection/>
-<CtaSection ctaclass={'wpo-cta-area-2'}/>
-              <Needs/>
-            <Footer />
+            <Howworks />
+            <Mission subclass={'section-padding'} />
+            <BlogSection />
+            <CtaSection ctaclass={'wpo-cta-area-2'} />
+            <Needs />
+
             <Scrollbar />
         </Fragment>
     )

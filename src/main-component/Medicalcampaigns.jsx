@@ -13,7 +13,6 @@ function Medicalcampaigns() {
         <>
             {/* 🌟 HERO SECTION */}
             <section className="hero-section">
-                <Header />
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
             </section>
@@ -35,17 +34,19 @@ function Medicalcampaigns() {
                     }}
                 >
                     <span
-                        style={{color: "#444", cursor: "pointer", whiteSpace: "nowrap"}}
+                        style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}
                     >
                         Education
                     </span>
 
-                    <span style={{ backgroundColor: "#F2E5FF",
-                            color: "#7A3CFF",
-                            padding: "6px ",
-                            borderRadius: "20px",
-                            cursor: "pointer",
-                            whiteSpace: "nowrap" }}>
+                    <span style={{
+                        backgroundColor: "#F2E5FF",
+                        color: "#7A3CFF",
+                        padding: "6px ",
+                        borderRadius: "20px",
+                        cursor: "pointer",
+                        whiteSpace: "nowrap"
+                    }}>
                         Medical campaigns
                     </span>
 

@@ -13,17 +13,16 @@ function TripToIndia() {
         <>
             {/* 🌟 HERO SECTION */}
             <section className="hero-section">
-                <Header />
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
             </section>
-           
-               <div
+
+            <div
                 style={{
                     width: "100%",
                     overflowX: "auto",
                     whiteSpace: "nowrap",
-                    paddingLeft:'30px'
+                    paddingLeft: '30px'
                 }}
             >
                 <div
@@ -35,8 +34,9 @@ function TripToIndia() {
                     }}
                 >
                     <span
-                        style={{  color: "#444", cursor: "pointer", whiteSpace: "nowrap"
-                           
+                        style={{
+                            color: "#444", cursor: "pointer", whiteSpace: "nowrap"
+
                         }}
                     >
                         Education
@@ -50,23 +50,25 @@ function TripToIndia() {
                         Supporting the disabled
                     </span>
 
-                    <span style={{  backgroundColor: "#F2E5FF",
-                            color: "#7A3CFF",
-                            padding: "6px ",
-                            borderRadius: "20px",
-                            cursor: "pointer",
-                            whiteSpace: "nowrap" }}>
+                    <span style={{
+                        backgroundColor: "#F2E5FF",
+                        color: "#7A3CFF",
+                        padding: "6px ",
+                        borderRadius: "20px",
+                        cursor: "pointer",
+                        whiteSpace: "nowrap"
+                    }}>
                         Mission to India
                     </span>
 
                     <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
                         Act for child protection
                     </span>
-                    
+
                     <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
                         Nurturing playtime
                     </span>
-                    
+
                     <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
                         Disaster relief
                     </span>

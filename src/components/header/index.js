@@ -68,7 +68,7 @@ const Header = () => {
                                             <li><Link to="/case-single" title="">Flyers</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/contact" title="">F.A.Q</Link></li>
+                                    <li><Link to="/faq" title="">F.A.Q</Link></li>
                                     {/* <li><Link to="/contact" title="">Subscribe</Link></li> */}
 
 

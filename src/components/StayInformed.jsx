@@ -73,7 +73,6 @@ function StayInformed() {
 
             {/* HERO SECTION */}
             <section className="hero-section">
-                <Header />
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
             </section>
@@ -114,7 +113,7 @@ function StayInformed() {
                         <li>Child abuse is the physical or psychological mistreatment of a child by his or her parents, guardians, or other adults. While there are many different types and degrees of abuse, the one thing they all have in common is the failure to look after a child’s long-term interest. The degree of the abuse, when in the child’s life it occurred and its duration have varying levels of impact on the child. This includes sexual, physical and emotional abuse. Sometimes children hide that they have been abused and may not reveal it until later. Abuse affects children differently and may cause emotional and behavioral problems that require the help of counseling and flexible parenting techniques to help the child heal. Child abuse can range from limited to intentional injury to a long term damage that could impair the development potential of a child. Included in the definition are neglect (acts of omission) and physical, psychological, pre sexual injury (act of commission) by a parent or a caregiver.</li> <br></br>
                     </ul>
 
-                    <h2 style={headingStyle}>Statistics Of India</h2> 
+                    <h2 style={headingStyle}>Statistics Of India</h2>
                     <ul className="project-list">
                         <li>There are 20 million street children in India</li>
                         <li>Over 59 million children in India have no access to school.</li>
