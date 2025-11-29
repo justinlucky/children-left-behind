@@ -16,7 +16,7 @@ const Mission = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Life of a child</span>
+                            <span>LIFE OF A CHILD</span>
                             <h2>Heartwarming tales of children </h2>
                             <p>Life at our partner organization is a journey from basic needs to boundless potential. Children receive not just shelter and food, but also the educational support and encouragement needed to explore their passions. Take a glimpse of the life changing stories of children here
                             </p>

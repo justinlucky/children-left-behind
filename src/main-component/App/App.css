@@ -291,7 +291,7 @@ img {
 .theme-btn-s3 {
   background-color: #F8F0FF;
   color: #832AD1;
-  border: 1px solid #91278f;
+  border: 1px solid #91278f !important;
   font-weight: 700;
   padding: 13px 38px;
   border-radius: 8px;
