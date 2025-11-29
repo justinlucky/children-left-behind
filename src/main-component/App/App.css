@@ -25,9 +25,9 @@ body {
 }
 
 p {
-  color: #37323c;
-  line-height: 1.6em;
-  font-size: 18px;
+  color: #37323C;
+  line-height:24px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -97,7 +97,7 @@ img {
 }
 
 .section-padding {
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
 @media (max-width: 991px) {
@@ -108,7 +108,7 @@ img {
 
 @media (max-width: 767px) {
   .section-padding {
-      padding: 80px 0;
+      padding: 40px 0;
   }
 }
 
@@ -249,12 +249,14 @@ img {
 
 
 .wpo-section-title span {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   color: #91278f;
   display: block;
   margin-bottom: 10px;
+  line-height: 18px;
   font-family: 'Rubik', sans-serif;
+  
 }
 
 .wpo-section-title h2 {
@@ -275,8 +277,11 @@ img {
 
 @media (max-width: 767px) {
   .wpo-section-title h2 {
-      font-size: 25px;
-      line-height: 35px;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 600;
+      color: #1C191E;
+      letter-spacing: 2%;
   }
 }
 
@@ -284,8 +289,9 @@ img {
 .theme-btn-s2,
 .theme-btn-s4,
 .theme-btn-s3 {
-  background-color: #91278f;
-  color: #fff;
+  background-color: #F8F0FF;
+  color: #832AD1;
+  border: 1px solid #91278f;
   font-weight: 700;
   padding: 13px 38px;
   border-radius: 8px;
@@ -478,4 +484,17 @@ img {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 1.4;
+}
+p {
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 28px !important;
+  color: #37323C !important;
+}
+
+h2, h3 {
+  font-weight: 600!important;
+  font-size: 32px!important;
+  line-height: 40px!important;
+  letter-spacing: 2% !important;
 }

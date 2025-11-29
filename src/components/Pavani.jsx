@@ -129,8 +129,8 @@ function Pavani() {
 
                             Ms. Ch. Supriya is with strong zeal and committed. She is known for her simplicity, unassuming nature and dedication to community service. As a Special Educator she has catered to the health needs of all sections of the society in the city of Visakhapatnam as well as the rural areas of Visakhapatnam District. She has rendered selfless service to the poor people. Ms. Supriya also worked extensively in the field of rural development HIV / AIDS awareness programs, women empowerment, environment & environmental initiatives.<br></br><br></br>
 
-                            Ms. Supriya has visited Disabled Rehabilitation Centers, Community Based Health Programs, in Germany.
-                            Pavani Special School was started on 14th November, 1987 and Ms. Supriya who is the present Secretary for the organization established to cater to the educational and training needs of the differently abled children in the city of Visakhapatnam. Ms. Supriya was deeply touched and by sufferings of few children with mental disability and longed to do something for the individuals with disabilities.
+                            Ms. Supriya has visited Disabled Rehabilitation Centers, Community Based Health Programs, in Germany.<br></br>
+                            Pavani Special School was started on 14th November, 1987 and Ms. Supriya who is the present Secretary for the organization established to cater to the educational and training needs of the differently abled children in the city of Visakhapatnam. Ms. Supriya was deeply touched and by sufferings of few children with mental disability and longed to do something for the individuals with disabilities.<br></br><br></br>
 
                             The school started receiving grant in aid from the Ministry of Social Justice and Empowerment, Government of India from the year 2000.
                         </p>

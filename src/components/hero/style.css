@@ -374,8 +374,9 @@ top:0%;
     justify-content: center;
 }
 .hero-style-3 .slide-caption .btns .theme-btn:first-child{
-  background:#513e51;
+  background:#F8F0FF;
   border:1px solid #91278f;
+  color:#832AD1 ;
 }
 .hero-style-3  .slide-caption .btns .theme-btn{
     background: #91278f;
@@ -512,7 +513,11 @@ top:0%;
     .hero-style-1 .slide-caption h2,
     .hero-style-2 .slide-caption h2,
     .hero-style-3 .slide-caption h2 {
-        font-size: 28px;
+        font-size: 43px;
+        font-weight: 700px;
+        line-height: 48px;
+        letter-spacing: 2%;
+        
     }
 }
 

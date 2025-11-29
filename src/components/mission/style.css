@@ -16,7 +16,7 @@
 .wpo-mission-item h2 {
     font-size: 22px;
     font-weight: 500;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
 }
 
@@ -58,9 +58,9 @@
         padding-bottom: 60px;
     }
 
-    .wpo-mission-area {
+    /* .wpo-mission-area {
         padding-bottom: 60px;
-    }
+    } */
 }
 
 

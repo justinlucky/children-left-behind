@@ -10,7 +10,7 @@ const Mission = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>How it works</span>
+                            <span style={{fontSize:'16px', fontWeight:'500', color:'#91278f'}}>HOW IT WORKS</span>
                             <h2>Children Are elevated  beyond survival</h2>
                             <p> where they may flourish and have a chance to live with dignity and purpose.</p>
                         </div>

@@ -12,12 +12,13 @@ const Mission = (props) => {
         <div className={`wpo-mission-area ${props.subclass}`}>
             <div className="container">
 
+
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Our partnering orgs</span>
-                            <h2>Partners That Trusted Us to Amplify Impacts</h2>
-                            <p>We have strategic partners, leaders from the private, public, and non-governmental organization (NGO) sectors, and subject matter experts in a variety of areas within children’s programs internationally.  </p>
+                            <span style={{fontSize:'16px', fontWeight:'500', color:'#91278f'}}>OUR PARTNERING ORGS</span>
+                            <h2 style={{fontSize:'36px', fontWeight:'600', lineHeight:'44px',letterSpacing:'2%'}}>Partners That Trusted Us to Amplify Impacts</h2>
+                            <p style={{color:'#37323C'}}>We have strategic partners, leaders from the private, public, and non-governmental organization (NGO) sectors, and subject matter experts in a variety of areas within children’s programs internationally.  </p>
                         </div>
                     </div>
                 </div>

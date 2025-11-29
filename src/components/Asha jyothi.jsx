@@ -62,11 +62,11 @@ function Ashajyothi() {
 
                         <h3 className="sub-title">Background</h3>
                         <p className="description">
-                            Miryalaguda a Semi urban town having a population of 2.2 Lakhs. It is a highly industrialized and rapidly developing town in the State of Andhra Pradesh, India, and a very good commercial center in Telangana region. The left canal of Nagarjuna Sagar river runs through the town and makes its surroundings green. It ranked one among the top five paddy growing markets. In and around the town limestone is available abundantly as many cement-manufacturing factories such as Raasi Cement, India cements, Sagar Priya Cements, and Deccan Cements established their units here.<br></br>
+                            Miryalaguda a Semi urban town having a population of 2.2 Lakhs. It is a highly industrialized and rapidly developing town in the State of Andhra Pradesh, India, and a very good commercial center in Telangana region. The left canal of Nagarjuna Sagar river runs through the town and makes its surroundings green. It ranked one among the top five paddy growing markets. In and around the town limestone is available abundantly as many cement-manufacturing factories such as Raasi Cement, India cements, Sagar Priya Cements, and Deccan Cements established their units here.<br></br><br></br>
 
                             Job opportunities for labor increased and many job seekers migrated to Miryalaguda for jobs and work. The laborers settled at Miryalaguda are uneducated and this caused a spurt in the growth of disabled/differently abled children, since they could not take proper precautions during pregnancy and during delivery time.
                             A group of philasphists joined together formed as a registered society and established “Aasha Jyothi Welfare Association for disabled” to take care of a such children and guide their parents
-                        </p>
+                        </p><br></br><br></br>
 
                         <h3 className="sub-title">  OBJECTIVES </h3><br></br>
                         <p className="description">
