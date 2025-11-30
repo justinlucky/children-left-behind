@@ -14,12 +14,14 @@
 }
 
 .wpo-about-area .icon-left{
-    top:-4%;
+    top:-15%;
 left: 0;
+width: 200px;
 }
 .wpo-about-area .icon-right{
-     top:-10%;
+     top:-20%;
 right: 0;
+width: 500px;
 }
 @media(max-width:992px){
     .wpo-about-area .icon-left{
