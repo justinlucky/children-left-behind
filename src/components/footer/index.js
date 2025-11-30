@@ -82,7 +82,7 @@ const Footer = (props) => {
                         </div>
                         <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="wpo-newsletter">
-                                <p>Get the latest updates about ChildrenLeftBehind’s new  updates and programs.</p>
+                                <p className='footer-para'>Get the latest updates about ChildrenLeftBehind’s new  updates and programs.</p>
                                 <div className="wpo-newsletter-form">
                                     <form onSubmit={SubmitHandler}>
                                         <div>
