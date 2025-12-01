@@ -6,7 +6,7 @@ import './style.css'
 const Hero3 = (props) => {
 
     return(
-        <section className="hero hero-style-3">
+        <section className="hero hero-style-3 hero">
             <div className="hero-slider">
                 <div className="slide">
                     <div className="container">
