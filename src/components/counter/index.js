@@ -1,64 +1,80 @@
-import React from 'react'
-import './style.css'
+import React from 'react';
+import './style.css';
+import img1 from "../../images/icons/icon-1.svg";
+import img2 from "../../images/icons/file.svg";
+import img3 from "../../images/icons/trust.svg";
 
 const CounterSection = (props) => {
-    return (
-        <div className={`wpo-counter-area ${props.countclass}`}>
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="wpo-counter-grids row ">
-                            <div className='col-lg-3 col-md-6'>
-                                <div className="grid flex items-center gap-3">
-                                    <i className="fa-solid fa-children text-4xl text-orange-500"></i>
-                                    <div>
-                                        <h2>
-                                            <span className="odometer" data-count="700">700</span>+
-                                        </h2>
-                                        <p>Children Empowered</p><br></br>
-                                    </div>
-                                </div>
-                            </div>
+    const cardStyle = {
+        height: "105px",
+        maxWidth: "280px", // max width for large screens
+        width: "100%",     // responsive width on small screens
+        backgroundColor: "#F8F0FF",
+        borderRadius: "8px",
+        padding: "12px 15px",
+        display: "flex",
+        alignItems: "center",
+        gap: "12px",
+        marginBottom: "16px" // spacing between rows on mobile
+    };
 
-                            <div className='col-lg-3 col-md-6'>
-                                <div className="grid flex items-center gap-3">
-                                    <i className="fa-solid fa-diagram-project text-4xl text-blue-500"></i>
-                                    <div>
-                                        <h2>
-                                            <span className="odometer" data-count="30">30</span>+
-                                        </h2>
-                                        <p>Projects Completed</p><br></br>
-                                    </div>
+    const iconStyle = {
+        width: "36px",
+        height: "36px",
+        backgroundColor: "#150523",
+        borderRadius: "6px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+    };
+
+    const imgStyle = {
+        width: "16px",
+        height: "16px",
+        objectFit: "contain",
+    };
+
+    return (
+        <div style={{ marginTop: '-30px' }} className={`wpo-counter-area ${props.countclass}`}>
+            <div className="container">
+                <div className="row justify-content-center">
+
+                    {[{
+                        icon: img1,
+                        count: "700",
+                        text: "Children Empowered"
+                    }, {
+                        icon: img2,
+                        count: "30",
+                        text: "Projects Completed"
+                    }, {
+                        icon: img3,
+                        count: "7",
+                        text: "Trusted Global Sponsors"
+                    }, {
+                        icon: img3,
+                        count: "5",
+                        text: "Dedicated Regional Care Centres"
+                    }].map((item, index) => (
+                        <div key={index} className='col-lg-3 col-md-6 d-flex justify-content-center'>
+                            <div className="grid" style={cardStyle}>
+                                <div style={iconStyle}>
+                                    <img src={item.icon} alt="icon" style={imgStyle} />
                                 </div>
-                            </div>
-                            <div className='col-lg-3 col-md-6'>
-                                <div className="grid flex items-center gap-3">
-                                    <i className="fa-solid fa-handshake-angle text-4xl text-green-500"></i>
-                                    <div>
-                                        <h2>
-                                            <span className="odometer" data-count="7">7</span>+
-                                        </h2>
-                                        <p>Trusted Global Sponsors</p><br></br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-lg-3 col-md-6'>
-                                <div className="grid flex items-center gap-3">
-                                    <i className="fa-solid fa-hospital text-4xl text-red-500"></i>
-                                    <div>
-                                        <h2>
-                                            <span className="odometer" data-count="5">5</span>+
-                                        </h2>
-                                        <p>Dedicated Regional Care Centres</p>
-                                    </div>
+                                <div>
+                                    <h2>
+                                        <span className="odometer" data-count={item.count}>{item.count}</span>+
+                                    </h2>
+                                    <p className='counter'>{item.text}</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    ))}
+
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default CounterSection;

@@ -14,7 +14,7 @@ const TeamSection = () => {
             </div>
 
             {/* Card Container */}
-            <div className="bg-light p-4 p-md-5 rounded-4 shadow-sm">
+            <div style={{backgroundColor:'#F8F0FF'}} className="bg-light p-4 p-md-5 rounded-4 shadow-sm">
 
                 {/* Member 1 */}
                 <div className="text-center mb-5">

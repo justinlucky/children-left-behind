@@ -254,11 +254,12 @@ img {
 .wpo-section-title span {
   font-size: 16px;
   font-weight: 500;
+  line-height: 18px;
   color: #91278f;
   display: block;
   margin-bottom: 10px;
   line-height: 18px;
-  font-family: 'Rubik', sans-serif;
+   font-family: "Work Sans", sans-serif !important;
   
 }
 
@@ -604,3 +605,38 @@ h2 {
 
 
 
+.whatwe {
+  color: #6817AE !important;
+  font-weight: 400 !important;     /* FIXED */
+  font-size: 16px !important;
+  line-height: 18px !important;
+  text-transform: uppercase !important;  /* text-uppercase alternative */
+    font-family: "Work Sans", sans-serif !important;
+}
+
+.counter{
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-family: "Work Sans", sans-serif !important;
+  
+  
+}
+
+
+.missiontitle , h2{
+  font-weight: 600 !important;
+  color: #1C191E !important;
+  font-size: 36px !important;
+  line-height: 44px !important;
+  letter-spacing: 2% !important;
+}
+
+/* .remodeling,h2{
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  line-height: 28px !important;
+  letter-spacing: 2% !important;
+  color: #7D7188 !important;
+   font-family: "Work Sans", sans-serif !important;
+} */

@@ -54,6 +54,8 @@
 .wpo-counter-grids .col-lg-3 .grid {
     background: #F8F0FF;
     padding: 12px 22px;
+    border-radius: 8px;
+   
 }
 
 .wpo-counter-grids .col-lg-3 {

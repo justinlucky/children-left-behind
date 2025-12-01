@@ -5,9 +5,9 @@ import "./style.css"; // <-- make sure to create this file
 const ourMission = () => {
   return (
     <section className="values-section">
-      <h3 className="values-title">OUR MISSION</h3>
+      <h2 className="mission-title">OUR MISSION</h2><br></br>
 
-      <div className="values-text">
+      <div className="valuestext">
         <p>
           At Children Left Behind, our mission is to create, implement, and
           advocate for child-friendly policies that promote the holistic
@@ -28,7 +28,7 @@ const ourMission = () => {
         </p>
       </div>
 
-      <div className="values-bg">
+      <div style={{paddingTop:'-20px'}}  className="values-bg">
         <img src={Values} alt="icon" />
       </div>
     </section>
