@@ -4,6 +4,7 @@ import Header from "../components/header";
 // import "../css";
 import "../App"
 import img from "../images/icons/Frame 232.png"
+import img1 from "../images/icons/Programs.svg"
 
 import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
@@ -12,68 +13,114 @@ function Disability() {
     return (
         <>
             {/* 🌟 HERO SECTION */}
-            <section className="hero-section">
+            {/* <section className="hero-section">
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
-            </section>
+            </section> */}
 
-            <div
-                style={{
-                    width: "100%",
-                    overflowX: "auto",
-                    whiteSpace: "nowrap",
-                    paddingLeft: '30px'
-                }}
-            >
-                <div
-                    style={{
-                        display: "flex",
-                        gap: "30px",
-                        padding: "10px 15px",
-                        alignItems: "center"
-                    }}
-                >
-                    <span
-                        style={{
-                            color: "#444", cursor: "pointer", whiteSpace: "nowrap"
+            <div className="program-hero">
 
-                        }}
-                    >
-                        Education
-                    </span>
+                {/* RIGHT IMAGE on Desktop — FIRST on Mobile */}
+                <div className="program-image-box">
+                    <img src={img1} alt="hero" className="program-image" />
+                </div>
 
-                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
-                        Medical campaigns
-                    </span>
+                {/* LEFT CONTENT on Desktop — BELOW on Mobile */}
+                <div className="program-content">
+                    <h1 className="program-title">
+                        Aims to bridge the <br />
+                        gaps in education and <br />
+                        healthcare
+                    </h1>
+
+                    <p className="program-desc">
+                        Children Left Behind conceived its goals to meet the pressing
+                        educational and medical needs of children who live without the crucial
+                        anchor of family, as well as those with family or caregivers who are
+                        unable to access the resources they need to flourish.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div style={{padding:'50px'}}>
+                   <p>
+                    We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
+                    </p>
+            </div>
+            <section style={{ width: "100%", overflow: "hidden", padding: "0px 0", background: "#fff" }}>
+
+                {/* animation and keyframes injected inside component */}
+                <style>{`
+    @keyframes autoScroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .scroll-box {
+      animation: autoScroll 20s linear infinite;
+      display: flex;
+      white-space: nowrap;
+      align-items: center;
+      gap: 20px;
+    }
+  `}</style>
+
+                <div className="scroll-box">
+                    <hr></hr>
+
+                    <span style={{ color: "#444", cursor: "pointer" }}>Education</span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+
+                    <span style={{ color: "#444", cursor: "pointer" }}>Medical campaigns</span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
 
                     <span style={{
-                        backgroundColor: "#F2E5FF",
+                        background: "#F2E5FF",
                         color: "#7A3CFF",
-                        padding: "6px ",
-                        borderRadius: "20px",
-                        cursor: "pointer",
-                        whiteSpace: "nowrap"
+                        padding: "6px 12px",
+                        borderRadius: "5px",
+                        cursor: "pointer"
                     }}>
                         Supporting the disabled
                     </span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
 
-                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
-                        Mission to India
-                    </span>
+                    <span style={{ color: "#444", cursor: "pointer" }}>Mission to India</span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
 
-                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
-                        Act for child protection
-                    </span>
+                    <span style={{ color: "#444", cursor: "pointer" }}>Act for child protection</span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
 
-                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
-                        Nurturing playtime
-                    </span>
+                    <span style={{ color: "#444", cursor: "pointer" }}>Nurturing playtime</span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
 
-                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
-                        Disaster relief
+                    <span style={{ color: "#444", cursor: "pointer" }}>Disaster relief</span>
+
+                    {/* DUPLICATE FOR INFINITE LOOP */}
+                    <span style={{ color: "#444", cursor: "pointer" }}>Education</span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+
+                    <span style={{ color: "#444", cursor: "pointer" }}>Medical campaigns</span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+
+                    <span style={{
+                        background: "#F2E5FF",
+                        color: "#7A3CFF",
+                        padding: "6px 12px",
+                        borderRadius: "5px",
+                        cursor: "pointer"
+                    }}>
+                        Supporting the disabled
                     </span>
+                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+
+                    <span style={{ color: "#444", cursor: "pointer" }}>Mission to India</span>
+
                 </div>
-            </div>
+
+            </section>
+
 
 
             {/* 🌟 CONTENT SECTION */}
@@ -130,7 +177,7 @@ function Disability() {
                         <li>HIV & AIDS</li>
                     </ul> */}
 
-                    <h2 className="sub-title mt-5">Supporting Disabled Children</h2>
+                    <h2 className="sub-title mt-5">Supporting Disabled Children</h2><br></br>
                     <p className="description">
                         Children Left Behind is actively involved in improving the lives and education of children with intellectual and physical disabilities in developing countries.<br></br> <br></br>
                         Often in developing countries it is believed that having a disability is due to a curse or karma, and those with disabilities are often hidden or shunned from society.<br></br><br></br>
@@ -264,7 +311,7 @@ function Disability() {
                 <BlogSection />
                 <CtaSection ctaclass={'wpo-cta-area-2'} />
                 <Needs />
-            
+
             </section>
         </>
     );

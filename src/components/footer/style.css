@@ -1,6 +1,6 @@
 .wpo-site-footer,
 .wpo-site-footer {
-    background: #062265;
+    background: #201927;
     position: relative;
     font-size: 15px;
     overflow: hidden;
@@ -429,4 +429,8 @@
 
 .widget .logo {
     margin-top: 0;
+}
+
+.footer-para ,p{
+    color: #D3CFD6 !important;
 }
