@@ -79,7 +79,7 @@ const TeamSection = () => {
             </div>
 
             {/* Volunteer Button Section */}
-            <div style={{backgroundColor:'#F8F0FF', borderRadius: "6px", height:'176px'}} className="text-center mt-5">
+            {/* <div style={{backgroundColor:'#F8F0FF', borderRadius: "6px", height:'176px'}} className="text-center mt-5">
                 <h2 className="fw-semibold mb-4 sponsorcars">
                     Want to be a part of our Volunteer / Sponsor Program?
                 </h2>
@@ -101,7 +101,40 @@ const TeamSection = () => {
   Join Hands
 </button>
 
-            </div>
+            </div> */}
+
+            <div
+  style={{
+    backgroundColor: "#F8F0FF",
+    borderRadius: "6px",
+    padding: "20px",
+  }}
+  className="text-center mt-5"
+>
+  <h2 className="fw-semibold mb-4 sponsorcars">
+    Want to be a part of our Volunteer / Sponsor Program?
+  </h2>
+
+  <p className="text-muted mb-3">
+    We're always excited to welcome people who want to help bring positive
+    change to children in need.
+  </p>
+
+  <button
+    style={{
+      width: "100%",          // FULL responsive width
+      maxWidth: "792px",      // Limit max width on large screens
+      height: "36px",
+      borderRadius: "8px",
+      border: "1px solid rgb(104, 23, 174)",
+      backgroundColor: "#F8F0FF",
+    }}
+    className="px-4 py-2"
+  >
+    Join Hands
+  </button>
+</div>
+
 
         </div>
     );
