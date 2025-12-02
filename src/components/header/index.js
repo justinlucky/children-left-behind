@@ -27,7 +27,7 @@ const Header = () => {
                                     <li><Link className="" to="/about" title="">About Us</Link>
 
                                     </li>
-                                    <li><Link to="/case" className='drop-downn' title="">Our Programs</Link>
+                                    <li><Link to="#" className='drop-downn' title="">Our Programs</Link>
                                         <ul>
                                             <li><Link to="/disability" title="">Supporting Disability</Link></li>
                                             <li><Link to="/education" title="">Education</Link></li>
@@ -39,7 +39,7 @@ const Header = () => {
                                             <li><Link to="/disasterrelief" title="">Disaster emergency relief</Link></li>
                                         </ul>
                                     </li>
-                                    <li><Link to="/case" className='drop-downn' title="">Our Partners</Link>
+                                    <li><Link to="#" className='drop-downn' title="">Our Partners</Link>
                                         <ul>
                                             <li><Link to="/childcenter" title="">Center GC</Link></li>
                                             <li><Link to="/pavani" title="">Pavani</Link></li>
