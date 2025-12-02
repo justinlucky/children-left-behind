@@ -640,3 +640,40 @@ h2 {
   color: #7D7188 !important;
    font-family: "Work Sans", sans-serif !important;
 } */
+
+/* .sponsorcars, h2  {
+  font-weight: 700 !important;
+  font-family: "Work Sans", sans-serif !important;
+  font-size: 20px !important;
+  line-height: 2px !important;
+  letter-spacing: 2% !important;
+  color: #1C191E !important;
+ 
+
+} */
+
+.whoweare{
+  color: #6817AE !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  font-family: "Work Sans", sans-serif !important;
+}
+
+
+.ourvalues{
+    color: #6817AE !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  font-family: "Work Sans", sans-serif !important;
+
+}
+h5{
+  font-weight: 600 !important;
+   font-size: 32px !important;
+  line-height: 40px !important;
+  letter-spacing: 2% !important;
+  color: #1C191E !important; 
+
+}

@@ -9,11 +9,11 @@ const ValuesSection = () => {
 
                 {/* LEFT TEXT CONTENT */}
                 <div className="col-lg-6">
-                    <p className="text-uppercase small mb-2 title">
+                    <p className="text-uppercase small mb-2 title ourvalues ">
                         Our Values
                     </p>
 
-                    <h2 className="fw-bold lh-base mb-3">
+                    <h2 className="fw-bold lh-base mb-3 ">
                         The values we embrace that truly <br /> reflect our beliefs.
                     </h2>
 
@@ -38,7 +38,7 @@ const ValuesSection = () => {
 
                     {/* VALUE ITEM */}
                     <div className="d-flex mb-4">
-                        <div className="value-number me-3">1</div>
+                        <div style={{ color: "#832AD1" }} className="value-number me-3">1</div>
                         <div>
                             <h5 className="fw-bold mb-1">Compassion</h5>
                             <p className="text-muted mb-0">
@@ -51,7 +51,7 @@ const ValuesSection = () => {
 
                     {/* VALUE ITEM */}
                     <div className="d-flex mb-4">
-                        <div className="value-number me-3">2</div>
+                        <div style={{ color: "#832AD1" }} className="value-number me-3">2</div>
                         <div>
                             <h5 className="fw-bold mb-1">Empowerment</h5>
                             <p className="text-muted mb-0">
@@ -64,7 +64,7 @@ const ValuesSection = () => {
 
                     {/* VALUE ITEM */}
                     <div className="d-flex mb-4">
-                        <div className="value-number me-3">3</div>
+                        <div style={{ color: "#832AD1" }} className="value-number me-3">3</div>
                         <div>
                             <h5 className="fw-bold mb-1">Inclusivity</h5>
                             <p className="text-muted mb-0">
@@ -77,7 +77,7 @@ const ValuesSection = () => {
 
                     {/* VALUE ITEM */}
                     <div className="d-flex mb-4">
-                        <div className="value-number me-3">4</div>
+                        <div style={{ color: "#832AD1" }} className="value-number me-3">4</div>
                         <div>
                             <h5 className="fw-bold mb-1">Collaboration</h5>
                             <p className="text-muted mb-0">
@@ -90,7 +90,10 @@ const ValuesSection = () => {
 
                     {/* VALUE ITEM */}
                     <div className="d-flex mb-4">
-                        <div className="value-number me-3">5</div>
+                        <div style={{ color: "#832AD1" }} className="value-number me-3">
+                            5
+                        </div>
+
                         <div>
                             <h5 className="fw-bold mb-1">Faith in Humanity</h5>
                             <p className="text-muted mb-0">

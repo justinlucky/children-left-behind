@@ -9,12 +9,12 @@ const TeamSection = () => {
         <div className="container py-5 leader">
             {/* Section Title */}
             <div className="text-center mb-5">
-                <p className="text-uppercase small fw-bold purplee">Who We Are</p>
+                <p className="text-uppercase small fw-bold whoweare">Who We Are</p>
                 <h2 className="fw-bold">Entrusted with Stewardship</h2>
             </div>
 
             {/* Card Container */}
-            <div style={{backgroundColor:'#F8F0FF'}} className="bg-light p-4 p-md-5 rounded-4 shadow-sm">
+            <div style={{backgroundColor:'#F8F0FF',   borderRadius: "8px",}}  className=" p-4 p-md-5 rounded-4 shadow-sm">
 
                 {/* Member 1 */}
                 <div className="text-center mb-5">
@@ -79,17 +79,28 @@ const TeamSection = () => {
             </div>
 
             {/* Volunteer Button Section */}
-            <div className="text-center mt-5">
-                <p className="fw-semibold mb-2">
+            <div style={{backgroundColor:'#F8F0FF', borderRadius: "6px", height:'176px'}} className="text-center mt-5">
+                <h2 className="fw-semibold mb-4 sponsorcars">
                     Want to be a part of our Volunteer / Sponsor Program?
-                </p>
+                </h2>
                 <p className="text-muted mb-3">
                     We're always excited to welcome people who want to help bring positive
                     change to children in need.
                 </p>
-                <button className="btn  rounded-pill px-4 py-2">
-                    Join Hands
-                </button>
+               <button
+  style={{
+    width: "792px",
+    height: "36px",
+    borderRadius: "8px",
+    gap: "6px",
+    border: "1px solid rgb(104, 23, 174)",
+    backgroundColor: "#F8F0FF"
+  }}
+  className="px-4 py-2"
+>
+  Join Hands
+</button>
+
             </div>
 
         </div>
