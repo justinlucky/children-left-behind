@@ -677,3 +677,42 @@ h5{
   color: #1C191E !important; 
 
 }
+
+.contact{
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+   font-family: "Work Sans", sans-serif !important;
+}
+
+
+/* Title / Label (thin muted text) */
+.info-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #7a7a7a;
+  margin-bottom: 4px;
+}
+
+/* Normal text (clean spacing, same as screenshot) */
+.info-text {
+  font-size: 15px;
+  line-height: 22px;
+  color: #000;
+  margin: 0;
+}
+
+/* Website link style */
+.info-link {
+  color: #000;
+  text-decoration: underline;
+}
+
+.info-link:hover {
+  color: #555;
+}
+
+/* Add spacing between sections */
+.info-section {
+  margin-top: 20px;
+}

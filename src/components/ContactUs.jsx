@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import heroDesktop from "../images/icons/contact.png";
 import heroMobile from "../images/icons/m-contact.png";
 import Header from "./header";
-import img from "../images/icons/Frame 232.png";
+// import img from "../images/icons/Frame 232.png";
 import "../App";
 import Footer from "../components/footer";
 import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
 import Needs from "../components/needs";
+import img from "../images/icons/Frame 189.svg"
 function ContactUs() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -21,9 +22,9 @@ function ContactUs() {
 
   return (
     <>
-      <section className="hero-section" style={{ position: "relative" }}>
+      {/* <section className="hero-section" style={{ position: "relative" }}>
 
-        {/* Only ONE image will show based on screen size */}
+      
         <img
           src={isMobile ? heroMobile : heroDesktop}
           alt="Hero"
@@ -33,7 +34,75 @@ function ContactUs() {
             display: "block",
           }}
         />
-      </section>
+      </section> */}
+
+      {/* <div className="resource-header container">
+        <div className="row align-items-center">
+          <div className="col-lg-6">
+            <h1 className="res-title">Get in touch with us!</h1>
+            <p className="res-desc">
+             We're available to provide assistance and address any inquiries you may have. Feel free to connect with us.
+            </p>
+          </div>
+          <div className="col-lg-6 text-center">
+            <img src={img} alt="Resources" className="header-img" />
+          </div>
+        </div>
+      </div> */}
+
+      <div style={{ backgroundColor: '#F8F0FF', borderRadius: "6px", paddingLeft: '50px' }}
+        className="resource-header container">
+        <div className="row align-items-center flex-column-reverse flex-md-row">
+          {/* LEFT SIDE — TEXT + CONTACT DETAILS */}
+          <div className="col-md-6 col-12 mt-4 mt-md-0">
+            <h1 className="res-title">Get in touch with us!</h1>
+            <p className="res-desc">
+              We're available to provide assistance and address any inquiries you may have.
+              Feel free to connect with us.
+            </p>
+
+            {/* Contact details */}
+            <div className="contact-details mt-4">
+
+              <div className="d-flex align-items-start mb-4">
+                <i className="fa-solid fa-envelope fs-4 me-3"></i>
+                <div>
+                  <h5 className="fw-bold mb-1 contact">Chat with us</h5>
+                  <p className="mb-0">
+                    Reach out to us at <a href="mailto:info@childrenleftbehind.org">info@childrenleftbehind.org</a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="d-flex align-items-start mb-4">
+                <i className="fa-solid fa-location-dot fs-4 me-3"></i>
+                <div>
+                  <h5 className="fw-bold mb-1 contact">Our office</h5>
+                  <p className="mb-0">
+                    1045 Radford Street <br />
+                    Christiansburg, VA 24073
+                  </p>
+                </div>
+              </div>
+
+              <div className="d-flex align-items-start">
+                <i className="fa-solid fa-phone fs-4 me-3"></i>
+                <div>
+                  <h5 style={{ paddingRight: '-20px' }} className="fw-bold mb-1 contact">Call us</h5>
+                  <p className="mb-0">Ring us on +1 (540) 251-3225</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* RIGHT SIDE — IMAGE */}
+          <div className="col-md-6 col-12 text-center">
+            <img src={img} alt="Resources" className="header-img img-fluid mb-3 mb-md-0" />
+          </div>
+        </div>
+      </div>
+
 
 
       <section className="contact-section">

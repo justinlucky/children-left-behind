@@ -82,13 +82,13 @@ const Mission = (props) => {
             <div className="col-lg-6">
               <Slider {...settings}>
                 <div>
-                  <img src={img1} className="carousel-img w-100" alt="" />
+                  <img style={{borderRadius: "12px"}} src={img1} className="carousel-img w-100" alt="" />
                 </div>
                 <div>
-                  <img src={img2} className="carousel-img w-100" alt="" />
+                  <img style={{borderRadius: "12px"}} src={img2} className="carousel-img w-100" alt="" />
                 </div>
                 <div>
-                  <img src={img3} className="carousel-img w-100" alt="" />
+                  <img style={{borderRadius: "12px"}} src={img3} className="carousel-img w-100" alt="" />
                 </div>
               </Slider>
             </div>

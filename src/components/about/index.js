@@ -47,7 +47,7 @@ const About = (props) => {
                     </div>
                     <div className="col-lg-5 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
-                            <img src={abimg} className='img w-100' alt=""/>
+                            <img style={{borderRadius: "12px"}} src={abimg} className='img w-100' alt=""/>
                         </div>
                     </div>
                      </div>
@@ -55,7 +55,7 @@ const About = (props) => {
                     <div className='row py-4'>
                     <div className="col-lg-5 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
-                            <img src={abimggg} className='imgg w-100' alt=""/>
+                            <img style={{borderRadius: "12px"}} src={abimggg} className='imgg w-100' alt=""/>
                         </div>
                     </div>
                       <div className="col-lg-7 col-md-12 colsm-12">
@@ -91,7 +91,7 @@ const About = (props) => {
                     </div>
                     <div className="col-lg-5 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
-                            <img src={abimgg} className='imggg w-100' alt=""/>
+                            <img style={{borderRadius: "12px"}} src={abimgg} className='imggg w-100' alt=""/>
                         </div>
                     </div>
                 </div>

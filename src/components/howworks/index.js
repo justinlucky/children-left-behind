@@ -22,7 +22,7 @@ const Mission = (props) => {
                         <div className="col-lg-6 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item p-0">
                                 <div className="wpo-mission-icon-5">
-                                    <img src={ms5} alt=""/>
+                                    <img style={{borderRadius: "12px"}} src={ms5} alt=""/>
                                 </div>
                            
                             </div>
