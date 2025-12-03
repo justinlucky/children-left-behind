@@ -94,7 +94,7 @@
 
 .wpo-header-style-2 .topbar ul li:first-child,
 .header-style-3 .topbar ul li:first-child {
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 
 .wpo-header-style-2 .topbar .contact-intro ul,
