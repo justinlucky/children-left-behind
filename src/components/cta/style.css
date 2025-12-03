@@ -92,3 +92,9 @@
         margin-right: 4px;
     }
 }
+@media(max-width:992px){
+    .wpo-cta-area,
+.wpo-cta-area-2 {
+        padding:50px;
+    }
+}
