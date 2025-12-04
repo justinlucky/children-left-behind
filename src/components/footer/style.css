@@ -198,7 +198,7 @@
     align-items: center;
 }
 
-.wpo-newsletter-form form div button {
+/* .wpo-newsletter-form form div button {
     background: #91278f;
     width: 150px;
     height: 45px;
@@ -207,7 +207,8 @@
     color: #fff;
     border: 0;
     outline: 0;
-    border-radius: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
 }
 
 .wpo-newsletter-form form div input {
@@ -220,6 +221,45 @@
     padding: 15px 15px 15px 25px;
     -webkit-box-shadow: 0px 5px 15px 0px rgba(68, 68, 68, 0.1);
     box-shadow: 0px 5px 15px 0px rgba(68, 68, 68, 0.1);
+} */
+
+.wpo-newsletter-form form > div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.wpo-newsletter-form input {
+    width: 211px;
+    height: 44px;
+
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #832AD1;
+
+    font-size: 14px;
+    outline: none;
+}
+
+.wpo-newsletter-form button {
+    width: 150px;
+    height: 40px;
+
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid #832AD1;
+    background: #832AD1;
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.wpo-newsletter-form button:hover {
+    background: #6b1ead;
 }
 
 @media screen and (min-width: 1200px) {

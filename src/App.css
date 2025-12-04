@@ -372,5 +372,75 @@ font-family: 'Awesome Serif'!important;
     font-size: 14px;
     color: #832AD1;
     white-space: nowrap;
+    padding-left: 0px 30px 0px 0px
+}
+.involved-section {
+    width: 100%;
+    padding: 60px 0;
 }
 
+.involved-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+     /* Space between Title and Images */
+  
+}
+
+/* Title Left */
+.involved-title {
+    width: 250px !important; /* Fix width so text stays left */
+    font-family: "Awesome Serif", serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 28px !important;
+    letter-spacing: 0.02em !important;
+    text-align: left;
+}
+
+/* Right side images in row */
+.involved-right {
+    display: flex;
+    align-items: center;
+    gap: 120px;   /* Gap between images */
+}
+
+/* Each image block */
+.involved-item {
+    text-align: center;
+}
+
+.involved-item img {
+    width: 150px;
+    height: auto;
+}
+
+.involved-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    .involved-container {
+        flex-direction: column;
+        align-items: center;   /* center everything */
+        text-align: center;
+        gap: 40px;
+        padding-left: 0;       /* remove left space */
+    }
+
+    .involved-title {
+        width: 100%;
+        text-align: center;    /* TITLE CENTER */
+    }
+
+    .involved-right {
+        flex-direction: column;  /* stack images vertical */
+        align-items: center;
+        gap: 40px;
+    }
+
+    .involved-item {
+        text-align: center;       /* image + name center */
+    }
+}

@@ -12,6 +12,8 @@ import img1 from "../images/icons/Frame 235.svg"
 import { useNavigate } from "react-router-dom";
 import user from "../images/icons/Vector.svg"
 import love from "../images/icons/heart.svg"
+import ind from "../images/icons/Frame 242.png"
+import emp from "../images/icons/Frame 242-1.png"
 function GetInvolved() {
     const navigate = useNavigate();
     return (
@@ -86,10 +88,40 @@ function GetInvolved() {
                         – Improve the lives of children with disabilities around the world
                     </p><br></br>
                     <p className="description">
-                        Children Left Behind can be supported by Individuals, corporations, Churches, community groups, friends and well wishers. We accept monetary and other donations that will enhance the children education programs and humanitarian missions. All gifts are tax deductible.<br/><br/>
+                        Children Left Behind can be supported by Individuals, corporations, Churches, community groups, friends and well wishers. We accept monetary and other donations that will enhance the children education programs and humanitarian missions. All gifts are tax deductible.<br /><br />
 
                         On behalf of the children we serve, Thank you
-                    </p>
+                    </p><br/><br/>
+
+                    <section class="involved-section">
+                        <div class="involved-container">
+
+                            <h2 class="involved-title">Who Can Get Involved</h2>
+
+                            <div class="involved-right">
+                                <div class="involved-item">
+                                    <img src={ind} />
+                                    <p>Individual</p>
+                                </div>
+
+                                <div class="involved-item">
+                                    <img src={emp} />
+                                    <p>Corporate Employer</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                     <section style={{ width: "100%", overflow: "hidden", paddingTop: '10px', background: "#fff" }}>
+  <hr />
+
+
+
+  <hr />
+</section>
+
+                    
+        
                     <img style={{ width: '100%' }} src={img} />
 
 
