@@ -109,7 +109,7 @@ const TeamSection = () => {
     borderRadius: "6px",
     padding: "20px",
   }}
-  className="text-center mt-5"
+  className="text-center mt-5 col-md-6 mx-auto"
 >
   <h2 className="fw-semibold mb-4 sponsorcars">
     Want to be a part of our Volunteer / Sponsor Program?
