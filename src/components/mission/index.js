@@ -62,7 +62,7 @@ const Mission = (props) => {
             <div className="col-lg-6">
               <div className="partner-links">
                 <h3>
-                  <Link to="/childcenter">Children Guidance Center</Link>
+                  <Link to="/childcenter">Child Guidance Center</Link>
                 </h3>
                 <h3>
                   <Link to="/cards">

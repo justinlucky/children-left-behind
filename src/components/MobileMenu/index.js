@@ -78,11 +78,11 @@ const menus = [
             }
         ]
     },
-    {
-        id: 4,
-        title: 'Our Impacts',
-        link: '/',
-    },
+    // {
+    //     id: 4,
+    //     title: 'Our Impacts',
+    //     link: '/',
+    // },
 
     {
         id: 5,
@@ -90,11 +90,12 @@ const menus = [
         link: '/stayinformed',
 
     },
-    // {
-    //     id: 6,
-    //     title: 'How to be involved?',
-    //     link: '/contact',
-    // },
+    {
+        id: 6,
+        title: 'Get Involved',
+        link: '/getinvolved',
+        
+    },
     {
         id: 7,
         title: 'Resources',

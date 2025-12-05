@@ -9,7 +9,7 @@ import Scrollbar from '../../components/scrollbar'
 const DonatePage =() => {
     return(
         <Fragment>
-            <Header/>
+            {/* <Header/> */}
             <PageTitle pageTitle={'Donate Now'} pagesub={'Donate'}/> 
             <Donate/>
             <Footer/>
