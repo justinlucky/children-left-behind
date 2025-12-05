@@ -91,12 +91,17 @@
 }
 
 @media (max-width:992px) {
+    .responsivemenu li p{
+       font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #666 !important;   
+    }
     .showmenu {
         display: block;
         width: 35px;
         height: 35px;
         text-align: center;
-        background: #91278f;
+        background: #832AD1;
         line-height: 50px;
         border-radius: 5px;
     }
