@@ -4,6 +4,8 @@
 .hero-style-3.hero .slide-title h2{
     line-height: 56px !important;
    font-size: 52px !important;
+     /* font-family: "Awesome Serif"; */
+     letter-spacing: 2%;
 }
 .hero-style-3.hero .slide-caption{
     display: flex;

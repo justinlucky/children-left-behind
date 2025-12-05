@@ -7,7 +7,7 @@ import img3 from "../../images/icons/trust.svg";
 const CounterSection = (props) => {
     const cardStyle = {
         height: "105px",
-        maxWidth: "280px", // max width for large screens
+        // maxWidth: "280px", // max width for large screens
         width: "100%",     // responsive width on small screens
         backgroundColor: "#F8F0FF",
         borderRadius: "8px",
@@ -15,7 +15,10 @@ const CounterSection = (props) => {
         display: "flex",
         alignItems: "center",
         gap: "12px",
-        marginBottom: "16px" // spacing between rows on mobile
+        marginBottom: "16px", // spacing between rows on mobile
+        // justify-content: "flex-start";
+        justifyContent:'flex-start'
+        
     };
 
     const iconStyle = {
@@ -35,7 +38,7 @@ const CounterSection = (props) => {
     };
 
     return (
-        <div style={{ marginTop: '-30px' }} className={`wpo-counter-area ${props.countclass}`}>
+        <div style={{ marginTop: '-10px' }} className={`wpo-counter-area ${props.countclass}`}>
             <div className="container">
                 <div className="row justify-content-center">
 

@@ -73,7 +73,7 @@ class TiltCarousel extends Component {
 
           <div>
             <div className="tilt-card rotate-3">
-              <img src={Img3} alt="" />
+              <img style={{height:'370px'}} src={Img3} alt="" />
             </div>
           </div>
 

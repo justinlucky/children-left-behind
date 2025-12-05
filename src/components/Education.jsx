@@ -2,6 +2,7 @@ import React from "react";
 import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
 import Slider from "react-slick";
+import TiltCarousel from "./TiltCarousel";
 // import "../css";
 import "../App"
 import img from "../images/icons/Union.svg"
@@ -46,6 +47,21 @@ function Disability() {
                 <div className="program-image-box">
                     <img src={img1} alt="hero" className="program-image" />
                 </div>
+
+                {/* <div className="stats-section">
+
+  <hr className="top-line" />
+
+  <div className="stats-row">
+    <p>Stats of India</p>
+    <p>Facts on Children in India</p>
+    <p>Hard truths about poverty in India</p>
+  </div>
+
+  <hr className="bottom-line" />
+
+</div> */}
+
 
                 {/* LEFT CONTENT on Desktop — BELOW on Mobile */}
                 <div className="program-content">
@@ -105,11 +121,7 @@ function Disability() {
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
                 <div className="container">
-                    {/* <h2 style={{ textAlign: 'center' }} className="title">Child Guidance Centre (CGC)</h2> */}
-
-                    {/* <p className="description">
-                        we are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
-                    </p> */}
+                   
 
 
 
@@ -120,6 +132,7 @@ function Disability() {
                         We are seeing how the promise and hope for a better future through education is becoming a reality as we work with at-risk children in the United States and developing world nations. We believe in the value of education to “open doors” for a new way of life for children and youth all around the globe.<br></br><br></br>
                         Every day men, women, and children are trafficked for sex, or forced into labor and/or begging worldwide. Their hearts are crying out for rescue from poverty, abuse and bondage. Children Left Behind is committed to respond to their cry and be an advocate for this very real need. You too, can be a part of the transformation that education provides in a child’s life by giving them a fresh start and a confident hope for a better future! Join us in being a part of the solution
                     </p>
+                      <TiltCarousel/>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img src={img} />
                     </div>

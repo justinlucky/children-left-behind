@@ -2,6 +2,7 @@ import React from "react";
 import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
 import Slider from "react-slick";
+import TiltCarousel from "./TiltCarousel";
 // import "../css";
 import "../App"
 import img from "../images/icons/Union.svg"
@@ -209,13 +210,14 @@ function DisasterRelief() {
 
                     <p className="description">
                         Please support the people affected by the floods, for our partners as they work in this remote rural areas in India.
-                    </p><br></br>
+                    </p>
+                      <TiltCarousel/>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img src={img} />
                     </div>
 
                 </div> <br></br>
-
+                
                 <CtaSection ctaclass={'wpo-cta-area-2'} />
                 <Needs />
 

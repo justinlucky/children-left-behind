@@ -40,7 +40,7 @@
 .resources-page .section-title {
     width: 25%;
     font-size: 36px;
-    font-family: "Awesome Serif";
+    /* font-family: "Awesome Serif"; */
     font-weight: 600;
     line-height: 42px;
 }

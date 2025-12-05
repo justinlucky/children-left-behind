@@ -9,6 +9,7 @@ import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 import img from "../images/icons/Union.svg";
 import img1 from "../images/icons/Programs.svg";
+import TiltCarousel from "../components/TiltCarousel";
 
 function ChildTrafficking() {
    const navigate = useNavigate();
@@ -140,7 +141,7 @@ function ChildTrafficking() {
           <p className="description">
             Violence against children happens everywhere, every day. To stop it, Children Left Behind fights to return children to civilian life and helps them rebuild their lives; supports safe haven shelters that care for street kids; trains and funds child protection teams to patrol areas where children are trafficked; develops innovative programs like Safe and Friendly Cities and Safe Schools; and supports groundbreaking national surveys to document the prevalence of violence against girls and boys and help governments build better protection systems.
           </p>
-
+            <TiltCarousel/>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <img src={img} />
           </div>

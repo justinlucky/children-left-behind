@@ -7,6 +7,7 @@ import "../App"
 import img from "../images/icons/Union.svg"
 import img1 from "../images/icons/Programs.svg"
 import { useNavigate } from "react-router-dom";
+import TiltCarousel from "../components/TiltCarousel"
 
 import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
@@ -189,6 +190,8 @@ function Disability() {
 
                         * The Child Guidance Center encompasses 14 boarding schools for children with disabilities, providing lodging and meals as well as medical care and education appropriate to the ability of each student. A 15th boarding school is currently under construction. See the Partnerships page for details.
                     </p>
+
+                    <TiltCarousel/>
                     <div>
                         {/* <img style={{alignItems:'center'}} src={img} /> */}
                         <div style={{ display: "flex", justifyContent: "center" }}>

@@ -43,6 +43,9 @@ import USPrivacyPolicy from '../../components/USPrivacyPolicy';
 import FinanciaiAccountability from '../FinancialAccountability';
 import OurPartners from '../../components/OurPartners';
 import GetInvolved from '../../components/GetInvolved';
+import PovertyInIndia from '../../components/PovertyInIndia';
+import FactOnChildren from '../../components/FactsOnChildren';
+import Statsofindia from '../../components/StatsofIndia';
 
 
 const AllRoute = () => {
@@ -95,6 +98,9 @@ const AllRoute = () => {
            <Route path='/financiaiaccountability' element={<FinanciaiAccountability/>}></Route>
            <Route path="/ourpartners" element={<OurPartners/>}></Route>
            <Route path='/getinvolved' element={<GetInvolved/>}></Route>
+           <Route path='/povertyinindia' element={<PovertyInIndia/>}></Route>
+           <Route path='/factonchildren' element={<FactOnChildren/>}></Route>
+           <Route path='/statsofindia' element={<Statsofindia/>}></Route>
 
         </Routes>
         <Footer />

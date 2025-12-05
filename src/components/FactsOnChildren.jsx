@@ -8,7 +8,7 @@ import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 import { useNavigate } from "react-router-dom";
 
-function StayInformed() {
+function FactOnChildren() {
     const navigate = useNavigate()
 
     // Track window width for mobile detection
@@ -91,131 +91,81 @@ function StayInformed() {
                 </div>
             </section>
 
-            {/* <div className="stats-section">
-
-  <hr className="top-line" />
-
-  <div className="stats-row">
-    <p>Stats of India</p>
-    <p>Facts on Children in India</p>
-    <p>Hard truths about poverty in India</p>
-  </div>
-
-  <hr className="bottom-line" />
-
-</div> */}
-
-            {/* <div className="stats-section">
-
+               <div className="stats-section">
                 <hr className="top-line" />
 
                 <div className="scroll-wrapper">
                     <div className="stats-row">
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
+                        <p onClick={() => navigate('/statsofindia')} >Stats of India</p>
+                        <button onClick={() => navigate('/factonchildren')} style={{
+                                backgroundColor: '#F2E5FF',
+                                color: '#7A3CFF',
+                                padding: '6px 12px',
+                                borderRadius: '5px',
+                                border: 'none',
+                                cursor: 'pointer'
+                            }}>Facts on Children in India</button>
+
+
+                        {/* <>Hard truths about poverty in India */}
+                        <p onClick={() => navigate('/povertyinindia')}>
+                            Hard truths about poverty in India
+                        </p>
+
+
+                        {/* Duplicate for smooth continuous scroll */}
+                        <p onClick={() => navigate('/statsofindia')}>Stats of India</p>
+                        <button onClick={() => navigate('/factonchildren')} style={{
+                                backgroundColor: '#F2E5FF',
+                                color: '#7A3CFF',
+                                padding: '6px 12px',
+                                borderRadius: '5px',
+                                border: 'none',
+                                cursor: 'pointer'
+                            }}>Facts on Children in India</button>
+                        <p onClick={() => navigate('/povertyinindia')}
+                            
+                        >
+                            Hard truths about poverty in India
+                        </p>
                     </div>
                 </div>
 
                 <hr className="bottom-line" />
-
-            </div> */}
-
-            {/* <div className="stats-section">
-
-                <hr className="top-line" />
-
-                <div className="scroll-wrapper">
-                    <div className="stats-row">
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
-
-
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
-                    </div>
-                </div>
-
-                <hr className="bottom-line" />
-
-            </div> */}
-
-            {/* <div className="stats-section">
-  <hr className="top-line" />
-
-  <div className="scroll-wrapper">
-    <div className="stats-row">
-      <p>Stats of India</p>
-      <p>Facts on Children in India</p>
-      <p>Hard truths about poverty in India</p>
-
-    
-      <p>Stats of India</p>
-      <p>Facts on Children in India</p>
-      <p>Hard truths about poverty in India</p>
-    </div>
-  </div>
-
-  <hr className="bottom-line" />
-</div> */}
-
-<div className="stats-section">
-  <hr className="top-line" />
-
-  <div className="scroll-wrapper">
-    <div className="stats-row">
-      <p>Stats of India</p>
-      <p>Facts on Children in India</p>
-      <p>Hard truths about poverty in India</p>
-
-      {/* Duplicate for smooth continuous scroll */}
-      <p>Stats of India</p>
-      <p>Facts on Children in India</p>
-      <p>Hard truths about poverty in India</p>
-    </div>
-  </div>
-
-  <hr className="bottom-line" />
-</div>
-
-
-
-
-
-
+            </div>
 
             {/* CONTENT */}
             <div style={containerStyle}>
 
+                
+
                 {/* LEFT SIDEBAR — HIDDEN ON MOBILE */}
                 <aside style={sidebarStyle}>
                     <ul style={listStyle}>
-                        <li onClick={() => navigate('/povertyinindia')} style={listItemStyle}>Hard truths about poverty in India</li>
-                        <li onClick={() => navigate('/factonchildren')} style={listItemStyle}>Facts on Children in India</li>
-                        <li onClick={() => navigate('/statsofindia')} style={listItemStyle}>Stats of India</li>
+                        <li onClick={() => navigate('/povertyinindia')} style={listItemStyle}>
+                            Hard truths about poverty in India
+                        </li>
+
+                        <li onClick={() =>navigate('/factofchildren')} style={listItemStyle}>Facts on Children in India</li>
+                        <li onClick={() =>navigate('/statsofindia')} style={listItemStyle}>Stats of India</li>
                     </ul>
                 </aside>
 
                 {/* RIGHT CONTENT */}
                 <main style={contentStyle}>
-                    <p>
+                   
+                   <p>
                         A cradle of civilization, India is one of the oldest cultures in the world.centuries-old center of economic  and cultural wealth is the world’s largest democracy.
                         It is also a study in contrasts. Monumental architecture and stunning cultural beauty exist side by side with slums overflowing with garbage and despair. And, while many Indians are enjoying the technological and economic booms that have characterized the nation over the last decade, millions of children still live in extreme poverty. Sponsorship through Children Left Behind gives hope to the poorest children and an opportunity  to participate in their country’s growth
                     </p>
-
-                    <h2 style={headingStyle}>Hard Truths About Poverty In India</h2>
+                    {/* <h2 style={headingStyle}>Hard Truths About Poverty In India</h2>
                     <ul>
                         <li>India has the third highest HIV/AIDS rate in the world, with an estimated 2.4 million people living  with the disease</li><br></br>
                         <li>Due to widespread child malnutrition, more children under age 5 are underweight in India  than in any other country in the world. Nearly 45% of Indian children struggle with inadequate nutrition</li><br></br>
                         <li>Over a quarter of India’s population lives below  the poverty line, meaning families and children in  poverty cannot afford basic goods</li> <br></br>
                         <li>Close to 70% of India’s population lacks adequate sanitation and drainage systems. This creates a breeding ground for such diseases as hepatitis A & C, typhoid fever and bacterial infections</li><br></br>
 
-                    </ul>
+                    </ul> */}
 
                     <h2 style={headingStyle}>Facts on Children</h2>
                     <ul>
@@ -225,7 +175,7 @@ function StayInformed() {
                         <li>Child abuse is the physical or psychological mistreatment of a child by his or her parents, guardians, or other adults. While there are many different types and degrees of abuse, the one thing they all have in common is the failure to look after a child’s long-term interest. The degree of the abuse, when in the child’s life it occurred and its duration have varying levels of impact on the child. This includes sexual, physical and emotional abuse. Sometimes children hide that they have been abused and may not reveal it until later. Abuse affects children differently and may cause emotional and behavioral problems that require the help of counseling and flexible parenting techniques to help the child heal. Child abuse can range from limited to intentional injury to a long term damage that could impair the development potential of a child. Included in the definition are neglect (acts of omission) and physical, psychological, pre sexual injury (act of commission) by a parent or a caregiver.</li> <br></br>
                     </ul>
 
-                    <h2 style={headingStyle}>Statistics Of India</h2>
+                    {/* <h2 style={headingStyle}>Statistics Of India</h2>
                     <ul className="project-list">
                         <li>There are 20 million street children in India</li>
                         <li>Over 59 million children in India have no access to school.</li>
@@ -247,7 +197,7 @@ function StayInformed() {
                         <li>Children underweight rate: 18%.</li>
                         <li>Life expectancy at birth (male): 63.9 years.</li>
                         <li>Life expectancy at birth (female): 63 years.</li>
-                    </ul>
+                    </ul> */}
 
 
                 </main>
@@ -262,5 +212,4 @@ function StayInformed() {
     );
 }
 
-export default StayInformed;
-
+export default FactOnChildren;

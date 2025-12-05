@@ -11,6 +11,7 @@ import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 import img1 from "../images/icons/Programs.svg"
 import { useNavigate } from "react-router-dom";
+import TiltCarousel from "./TiltCarousel";
 function NurturingPlaytime() {
      const navigate = useNavigate();
 
@@ -142,8 +143,8 @@ function NurturingPlaytime() {
                         CARDS supports Income generating programs undertaken by the parents of Bala Bata Children with micro–credit to serve as a compensation for the loss of labor wages hitherto earned through Child Labor.
                         The Program lays the path for a new generation of educated.
                         View Bala-Bata 2016 Jan-Feb brochure
-                    </p><br></br>
-
+                    </p>
+                      <TiltCarousel/>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img src={img} />
                     </div>

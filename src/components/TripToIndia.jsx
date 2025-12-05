@@ -2,6 +2,7 @@ import React from "react";
 import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
 import Slider from "react-slick";
+import TiltCarousel from "./TiltCarousel";
 // import "../css";
 import "../App"
 import img from "../images/icons/Union.svg"
@@ -133,11 +134,7 @@ function TripToIndia() {
                         Contact us if you are interested in volunteering to help be a part of our Medical Outreach program.
 
                     </p>
-
-
-
-
-
+                      <TiltCarousel/>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img src={img} />
                     </div>

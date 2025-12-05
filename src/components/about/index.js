@@ -25,8 +25,8 @@ const About = (props) => {
                     <div className="col-12">
                           <div className="wpo-section-title">
                               <span>OUR KEY INITIATIVES</span>
-                              <h2>Enabling Children by Creating Pathways to Opportunity</h2>
-                              <p>From essential care in India to international opportunities, learn how our unique programs are changing lives.</p>
+                              <h2>Enabling Children by Creating Pathways to <br/> Opportunity</h2>
+                              <p>From essential care in India to international opportunities, learn how our<br/> unique programs are changing lives.</p>
                           </div>
                       </div>
                       <div className='row py-4'>
