@@ -4,7 +4,23 @@
     /* background: #f7fbfe; */
     padding-bottom: 64px;
 }
-
+.wpo-mission-area.org .container{
+    position: relative;
+}
+.wpo-mission-area.org .container .org-icon-left{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 600px;
+    z-index: -1;
+}
+.wpo-mission-area.org .container .org-icon-right{
+    position: absolute;
+    bottom: 0px;
+    left: -5%;
+    width: 600px;
+    z-index: -1;
+}
 .wpo-mission-wrap {
     margin-top: 10px;
 }
