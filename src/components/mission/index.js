@@ -27,7 +27,7 @@ const Mission = (props) => {
         {/* Section Title */}
         <div className="row">
           <div className="col-12">
-            <div className="wpo-section-title">
+            <div className="wpo-section-title orgs">
               <span
                 style={{
                   fontSize: "16px",
