@@ -116,7 +116,7 @@ nav ul li.closed > ul {
                   <li>
                     <Link to="/ourpartners" className='drop-downn'>Our Partners</Link>
                     <ul>
-                      <li><Link to="/childcenter">Center GC</Link></li>
+                      <li><Link to="/childcenter">CGC</Link></li>
                       <li><Link to="/pavani">Pavani</Link></li>
                       <li><Link to="/cards">CARDS</Link></li>
                       <li><Link to="/asha">Asha Jyothi</Link></li>

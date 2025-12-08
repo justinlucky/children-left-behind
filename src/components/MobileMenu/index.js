@@ -58,7 +58,7 @@ const menus = [
         submenu: [
             {
                 id: 41,
-                title: 'Center GC',
+                title: 'CGC',
                 link: '/childcenter'
             },
             {
