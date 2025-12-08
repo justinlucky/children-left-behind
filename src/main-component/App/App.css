@@ -500,7 +500,7 @@ font-size: 36px !important;
 }
 p {
   font-weight: 400 !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
   line-height: 28px !important;
   color: #37323C !important;
 }
@@ -513,7 +513,7 @@ h2 {
 
 .program-hero {
   width: 1170px;
-  height: 370px;
+  height: 470px;
  background: linear-gradient(to bottom, #FFFFFF, #F8F0FF);
   border-radius: 10px;
   display: flex;
@@ -542,17 +542,18 @@ h2 {
   flex: 1;
   order: 1; /* Desktop: content on left */
   margin-left: 50px;
+  margin-bottom: -16px;
 }
 
 .program-title {
-  font-size: 42px;
+  font-size: 44px;
   line-height: 48px;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
 .program-desc {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 26px;
   color: #444;
   margin-bottom: 20px;

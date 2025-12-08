@@ -39,6 +39,7 @@ import Faq from '../../components/faq';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Resources from '../../components/Resources';
+import Subscribe from '../../components/Subscribe';
 import USPrivacyPolicy from '../../components/USPrivacyPolicy';
 import FinanciaiAccountability from '../FinancialAccountability';
 import OurPartners from '../../components/OurPartners';
@@ -72,6 +73,9 @@ const AllRoute = () => {
           <Route path='donate' element={<DonatePage />} />
           <Route path='volunteer' element={<VolunteerPage />} />
           <Route path='resources' element={<Resources />} />
+          <Route path='Subscribe' element={<Subscribe />} />
+
+
           <Route path='blog' element={<BlogPage />} />
           <Route path='faq' element={<Faq />} />
           <Route path='blog-left' element={<BlogPageLeft />} />

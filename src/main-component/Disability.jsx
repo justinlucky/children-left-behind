@@ -81,7 +81,7 @@ function Disability() {
                 {/* <p style={{ textAlign: "center" , margin: 0}}> */}
                <p style = {{
     margin: "5px 264px auto",
-    width: "1164px", marginLeft: "176px"}}>
+    width: "1164px", marginLeft: "50px"}}>
 
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
@@ -121,13 +121,13 @@ style={{
         style={{
             borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
-            paddingBottom: "10px",
+            paddingBottom: "20px",
             width : "100vw",
             // position : "relative",
             // transform : "translate(-50%)",
             left: "50%",
-            paddingTop: "10px",
-            paddingLeft: "204px"
+            paddingTop: "20px",
+            paddingLeft: "133px"
 
         }}
         >
@@ -220,7 +220,7 @@ style={{
                     </ul> */}
 
                     <h2 style={{ fontWeight: '600', fontSize: '32px', lineHeight: '40px', letterSpacing: '2%', marginLeft: "-20px" }} className="sub-title mt-5">Supporting Disabled Children</h2><br></br>
-                    <p className="description" style={{marginLeft: "50px"}}>
+                    <p className="description" style={{marginLeft: "50px "}}>
                         Children Left Behind is actively involved in improving the lives and education of children with intellectual and physical disabilities in developing countries.<br></br> <br></br>
                         Often in developing countries it is believed that having a disability is due to a curse or karma, and those with disabilities are often hidden or shunned from society.<br></br><br></br>
                         Through partnership with existing local social service entities, facility administrators and other charitable organizations, Children Left Behind helps to assess and meet the many needs and challenges facing these children. Children Left Behind believes that every child is precious and deserves the best possible opportunities in life<br></br><br></br>

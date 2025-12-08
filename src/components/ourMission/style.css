@@ -35,7 +35,7 @@
 .values-section .values-bg {
     position: absolute;
 
- left: 8%;
+ left: 7%;
 bottom: -55%;
 }
 @media(max-width:992px){
@@ -53,5 +53,5 @@ bottom: -55%;
     }
 }
 .values-bg img {
-    width: 100%;
+    width: 90%;
 }

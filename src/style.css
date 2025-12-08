@@ -5,3 +5,52 @@ p {
 /*# sourceMappingURL=style.css.map */
 
 
+/* --------------------------- */
+/*      MOBILE VIEW FIX        */
+/* --------------------------- */
+@media (max-width: 480px) {
+
+  /* Main container */
+  .chatbot-main-centered,
+  .landing-page-div,
+  .chatbot-card {
+    width: 100% !important;
+    padding: 10px !important;
+    margin: 0 !important;
+  }
+
+  /* Chat area */
+  .chatbot-messages-area {
+    max-height: 65vh !important;
+    height: auto !important;
+    padding: 8px !important;
+    overflow-y: auto !important;
+  }
+
+  /* Chat bubbles */
+  .chat-bubble-row {
+    width: 100% !important;
+    margin: 6px 0 !important;
+    font-size: 14px !important;
+  }
+
+  /* Input area */
+  .chat-input-area {
+    display: flex;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  .chat-input-area input {
+    width: 100% !important;
+  }
+
+  .chat-input-area button {
+    width: 100% !important;
+  }
+
+  /* Remove sidebar (if any) */
+  .sidebar {
+    display: none !important;
+  }
+}

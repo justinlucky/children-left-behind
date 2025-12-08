@@ -131,7 +131,7 @@ nav ul li.closed > ul {
                 <ul className="col-lg-3 p-0">
                   <li><Link to="/resources">Resources</Link></li>
                   <li><Link to="/faq">F.A.Q</Link></li>
-                  <li><Link to="/">Subscribe</Link></li>
+                  <li><Link to="/Subscribe">Subscribe</Link></li>
                 </ul>
 
               </nav>

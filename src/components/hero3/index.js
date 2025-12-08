@@ -27,7 +27,7 @@ const Hero3 = (props) => {
                             <div className="col col-lg-10 slide-caption">
                                 
                                 <div className="slide-title">
-                                    <h2 style={{}} className=' px-4'>Reimagining the World for Children in Need</h2>
+                                    <h2 style={{width:"525px"}} className=' px-4'>Reimagining the World for Children in Need</h2>
                                 </div>
                                 <div className="slide-subtitle">
                                     {/* <p className=' px-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}

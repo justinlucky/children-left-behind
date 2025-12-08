@@ -68,7 +68,7 @@ function ChildTrafficking() {
         {/* <p style={{ paddingLeft: '50px' }}> */}
          <p style = {{
     margin: "5px 264px auto",
-    width: "1164px", marginLeft: "176px"}}>
+    width: "1164px", marginLeft: "50px"}}>
           We are committed to educating the families of children with disabilities
           and teaching families how to deal with and care for the child along with
           providing equipment or other essentials to meet the child’s needs. Many
@@ -99,13 +99,13 @@ function ChildTrafficking() {
            style={{
                      borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
-            paddingBottom: "10px",
+            paddingBottom: "20px",
             width : "100vw",
             // position : "relative",
             // transform : "translate(-50%)",
             left: "50%",
-            paddingTop: "10px",
-            paddingLeft: "204px"
+            paddingTop: "20px",
+            paddingLeft: "133px"
                    }}
         
         >

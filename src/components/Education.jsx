@@ -86,7 +86,7 @@ function Disability() {
             {/* <p style={{ paddingLeft: '50px' }} */}
                    <p style = {{
     margin: "28px 264px auto",
-    width: "1164px", marginLeft: "176px"}}
+    width: "1164px", marginLeft: "50px"}}
             className="program-desc">We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities</p>
             <section className="category-section container">
                  {/* DESKTOP VIEW (no carousel) */}
@@ -106,13 +106,13 @@ function Disability() {
                    style={{
                      borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
-            paddingBottom: "10px",
+            paddingBottom: "20px",
             width : "100vw",
             // position : "relative",
             // transform : "translate(-50%)",
             left: "50%",
-            paddingTop: "10px",
-            paddingLeft: "204px"
+            paddingTop: "20px",
+            paddingLeft: "133px"
                    }}
                    
                    >

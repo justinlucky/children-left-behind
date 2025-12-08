@@ -110,7 +110,7 @@ const menus = [
     {
         id: 9,
         title: 'Subscribe',
-        link: '/',
+        link: '/Subscribe',
     }
 
 

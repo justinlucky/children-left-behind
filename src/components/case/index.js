@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom'
 
-import cs1 from '../../images/slider/news1.jpg'
-import cs2 from '../../images/slider/news2.jpg'
-import cs3 from '../../images/slider/news3.jpg'
+import cs1 from '../../images/slider/news.1.jpg'
+import cs2 from '../../images/slider/News.2.jpg'
+import cs3 from '../../images/slider/News.3.jpg'
 
 import './style.css'
 

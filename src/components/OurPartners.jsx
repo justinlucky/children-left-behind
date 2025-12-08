@@ -9,6 +9,7 @@ import CounterSection from "./counter";
 import Mission from "./mission";
 // import "../css";
 import "../App"
+import TiltCarousel from "./TiltCarousel"
 
 import PartnersEst from "./partnersEst";
 
@@ -63,10 +64,12 @@ function OurPartners() {
                 }}
               >
                 Heartwarming tales of<br/> children
+                
               </h2>
               <p style={{ color: "#37323C" }}>
                Life at our partner organization is a journey from basic needs to<br/> boundless potential. Children receive not just shelter and food, but also<br/> the educational support and encouragement needed to explore their<br/> passions. Take a glimpse of the life changing stories of children here
               </p>
+              <TiltCarousel/>
             </div>
           </div>
         </div>
