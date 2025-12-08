@@ -3,6 +3,7 @@ import "./style.css";
 import HeaderImg from "../../images/resources.png"; // Replace with your image
 import BlogSection from "../BlogSection";
 import Needs from "../needs";
+import styled from "styled-components"
 
 const ResourcesPage = () => {
     return (
@@ -13,8 +14,9 @@ const ResourcesPage = () => {
                 <div className="resource-header container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <h1 className="res-title">Discover our brilliance in the media glossaries!</h1>
-                            <p className="res-desc">
+                            <h2 className="res-title">Discover our brilliance<br></br> in the media<br></br> glossaries!</h2>
+                            <br></br>
+                            <p className="res-desc" style={{width: "80%"}}>
                                 We have been documenting our journey with our partners and supporters
                                 as the non-profit org.
                             </p>
@@ -30,11 +32,11 @@ const ResourcesPage = () => {
 
                     {/* ========= PHOTO GALLERY ========= */}
                     <div className="resource-section">
-                        <h2 className="section-title">Photo Gallery</h2>
+                        <h5 className="section-title">Photo Gallery</h5>
 
                         <div className="section-content">
                             <div className="year-block">
-                                <h4>2017</h4>
+                                <h3>2017</h3>
                                 <p>Disability Awareness Week Celebration</p>
                                 <p>CRAC Annual Day</p>
                                 <p>Hudhud Cyclone Relief</p>
@@ -42,7 +44,7 @@ const ResourcesPage = () => {
                             </div>
 
                             <div className="year-block">
-                                <h4>2015</h4>
+                                <h3>2015</h3>
                                 <p>HRF Children’s Day</p>
                                 <p>CREC Pre-Christmas Celebration</p>
                                 <p>CRAC & Special School Christmas</p>
@@ -55,11 +57,11 @@ const ResourcesPage = () => {
 
                     {/* ========= VIDEO GALLERY ========= */}
                     <div className="resource-section">
-                        <h2 className="section-title">Video Gallery</h2>
+                        <h5 className="section-title">Video Gallery</h5>
 
                         <div className="section-content">
                             <div className="year-block">
-                                <h4>2018</h4>
+                                <h3>2018</h3>
                                 <p>Class of 2018</p>
                                 <p>Class of 2018: Meet Reena Jha</p>
                                 <p>Class of 2018: Meet Nikki Chandrashekhar</p>
@@ -67,7 +69,7 @@ const ResourcesPage = () => {
                             </div>
 
                             <div className="year-block">
-                                <h4>2017</h4>
+                                <h3>2017</h3>
                                 <p>Balabata Education for Dalit Children</p>
                                 <p>CARDS Balabata Education for Self Sustainability</p>
 
@@ -86,7 +88,7 @@ const ResourcesPage = () => {
 
                     {/* ========= BROCHURE ========= */}
                     <div className="resource-section">
-                        <h2 className="section-title">Brochure</h2>
+                        <h5 className="section-title">Brochure</h5>
 
                         <div className="section-content">
                             <p>Children Left-Behind Brochure</p>
@@ -95,7 +97,7 @@ const ResourcesPage = () => {
 
                     {/* ========= FLYERS ========= */}
                     <div className="resource-section">
-                        <h2 className="section-title">Flyers</h2>
+                        <h5 className="section-title">Flyers</h5>
 
                         <div className="section-content">
                             <p>Children Left-Behind Flyer</p>
@@ -104,7 +106,7 @@ const ResourcesPage = () => {
 
                     {/* ========= PRESS RELEASE ========= */}
                     <div className="resource-section">
-                        <h2 className="section-title">Press Releases</h2>
+                        <h5 className="section-title">Press Releases</h5>
 
                         <div className="section-content">
                             <p className="coming-soon">Coming Soon!</p>
@@ -121,3 +123,12 @@ const ResourcesPage = () => {
 };
 
 export default ResourcesPage;
+
+
+const textWrapper = styled.div`
+  font-weight: 600 !important;
+  color: #1C191E !important;
+  font-size: 52px !important;
+  line-height: 44px !important;
+  letter-spacing: 2% !important;
+`;

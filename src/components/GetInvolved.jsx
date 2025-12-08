@@ -104,20 +104,21 @@ function GetInvolved() {
 
       <div className="container text-center what">
         <p className="whatwe">Ways you can be involved</p>
-        <h2
+        <h5
           className="mx-auto"
           style={{
             maxWidth: "900px",
             color: "#1C191E",
             fontWeight: "600",
-            fontSize: "36px",
+            fontSize: "30px",
             lineHeight: "44px",
             letterSpacing: "2%",
           }}
         >
           Enabling Children by Creating Pathways to <br />
           Opportunity
-        </h2>
+        </h5>
+        <br></br>
         <p>
           There are endless ways that you can raise funds to support children in
           <br /> desperate need. From essential care in India to international
@@ -188,14 +189,32 @@ function GetInvolved() {
 
           <section className="category-section container">
             {/* DESKTOP VIEW (no carousel) */}
-            <div className="category-desktop">
+            <div className="category-desktop"
+            style={{ width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"
+}}
+            >
               <div
                 className="category-list"
                 style={{
                   display: "flex",
                   gap: "40px",
-                  justifyContent: "center",
-                  alignItems: "center",
+                  // justifyContent: "center",
+                  // alignItems: "center",
+                   borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "10px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
+
                 }}
               >
                 {categories.map((item, i) => (
@@ -238,7 +257,7 @@ function GetInvolved() {
           </section>
           <br />
 
-          <h2
+          <h4
             style={{
               fontWeight: "600",
               fontSize: "32px",
@@ -248,7 +267,7 @@ function GetInvolved() {
             className="sub-title"
           >
             Helping a Child
-          </h2>
+          </h4>
 
           <div className="d-flex flex-wrap mt-4 gap-2">
             {tags.map((item, index) => (

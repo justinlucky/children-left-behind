@@ -52,7 +52,7 @@ function Medicalcampaigns() {
                 <div className="program-content" 
                 // style={{marginLeft: "50px"}}
                 >
-                    <h1 style={{ color: '#1C191E' }} className="program-title">
+                    <h1 style={{ color: '#1C191E'}} className="program-title">
                         Aims to bridge the <br />
                         gaps in education and <br />
                         healthcare
@@ -98,13 +98,14 @@ function Medicalcampaigns() {
         style={{
                      borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
-            paddingBottom: "3px",
+            paddingBottom: "10px",
             width : "100vw",
             // position : "relative",
             // transform : "translate(-50%)",
             left: "50%",
             paddingTop: "10px",
             paddingLeft: "204px"
+            //  paddingBottom: "10px",
                    }}
         
         >

@@ -87,9 +87,9 @@ function Cards() {
                     <div className="p-6 space-y-6 leading-relaxed text-gray-800">
                         {/* Project 1 */}
                         <div>
-                            <h2 className="text-xl font-bold mb-2">
-                                Our Vision
-                            </h2> <br></br>
+                            <h5 className="text-xl font-bold mb-2">
+                                Vision
+                            </h5> <br></br>
                             <p>
                                 CARDS envisions an India where Dalit communities are fully integrated into society equal in law, status, opportunity, and dignity. We aspire to build a nation where every Dalit individual is indistinguishable from other citizens, free from barriers of caste, discrimination, or socio-economic exclusion. Our vision is a just and inclusive society where every Dalit can live, work, and grow with pride, respect, and equal rights.
                             </p>
@@ -97,18 +97,18 @@ function Cards() {
 
                         {/* Project 2 */}
                         <div>
-                            <h2 className="text-xl font-bold mb-2">
-                                Our Mission
-                            </h2> <br></br>
+                            <h5 className="text-xl font-bold mb-2">
+                                Mission
+                            </h5> <br></br>
                             <p>
                                 Our mission is to eliminate every form of discrimination, oppression, and inequality faced by Dalit communities both legally and socially. CARDS is committed to ensuring that Dalits across India receive the same rights, protections, and privileges as every other citizen. We work to empower Dalits with knowledge, opportunities, and resources that support their holistic development, freedom, and participation in nation-building
                             </p>
                         </div> <br></br>
                         {/* Project 3 */}
                         <div>
-                            <h2 className="text-xl font-bold mb-2">
-                                Our Purpose
-                            </h2> <br></br>
+                            <h5 className="text-xl font-bold mb-2">
+                                Purpose
+                            </h5> <br></br>
                             <p>
                                 Our Purpose is to fight for Dalits who deserves: Freedom from discrimination, Equal access to opportunities’ Dignity and respect,, and A voice in democratic processes with a future built on empowerment, not oppression <br></br>
                                 <br></br>
@@ -117,7 +117,7 @@ function Cards() {
                         </div> <br></br>
 
 
-                        <h3 className="sub-title">Projects</h3>
+                        <h5 className="sub-title">Projects</h5>
 
                         <ul className="project-list">
                             <p className="text-xl font-bold">

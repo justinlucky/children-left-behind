@@ -1,5 +1,7 @@
 import React from "react";
-import heroImg from "../images/icons/partners.png";
+// import heroImg from "../images/icons/partners.png";
+// import CGC_LOGO 1 from "../images/icons/CGC_LOGO 1.png";
+import CGC_LOGO from "../images/icons/CGC_LOGO 1.png"
 import { useState, useEffect } from "react";
 import Footer from "../components/footer";
 import BlogSection from "../components/BlogSection"
@@ -27,12 +29,14 @@ function ChildCenter() {
                   <section className="wpo-about-area">
                        <div className="container child">
                            <div className="row align-items-center">
-                               <div className="col-md-6">
-                                   <h2 className="wpo-section-title about">Impacting through mission partners</h2>
-                                   <p>We offering programs are coordinated through our mission partners, an innovative network that connects children in need to the people and organizations prepared to help them.</p>
+                               <div className="col-md-6" style={{paddingLeft: "306px", width: "100%", paddingTop: "160px"}} >
+                                   <h2 className="wpo-section-title about">Child Guidance Centre (CGC)</h2>
+                                    </div>
+                                    <div className="col-md-6" style={{paddingLeft: "96px", width: "100%", paddingBottom: "36px"}}>
+                                   <p>A non-profit voluntary organization registered under the societes Registration Act of Indi (Reg. No. 315/1981). Over the past five decades, CGC has worked relentlessly for the empowerement of children, women, persons with disabilities, and vulnerable communities across India</p>
                                </div>
-                               <div className="col-md-6">
-                                   <img src={heroImg} alt=""/>
+                               <div className="col-md-6" style={{position: "absolute", paddingLeft: "526px", paddingBottom:"142px"}}>
+                                   <img src={CGC_LOGO} alt=""/>
                                </div>
                            </div>
                        </div>

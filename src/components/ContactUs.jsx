@@ -50,7 +50,7 @@ function ContactUs() {
         </div>
       </div> */}
 
-      <div style={{ backgroundColor: '#F8F0FF', borderRadius: "6px", paddingLeft: '50px' }}
+      <div style={{ backgroundColor: '#F8F0FF', borderRadius: "6px", paddingLeft: '80px' }}
         className="resource-header container">
         <div className="row align-items-center flex-column-reverse flex-md-row">
           {/* LEFT SIDE — TEXT + CONTACT DETAILS */}
@@ -109,7 +109,7 @@ function ContactUs() {
 
         <div className="contact-container">
 
-          <h2 className="contact-title">We’d love to hear from you</h2>
+          <h5 className="contact-title">We’d love to hear from you</h5>
           <p className="contact-subtitle">
             Contact us regarding any concerns or inquiries.
           </p>

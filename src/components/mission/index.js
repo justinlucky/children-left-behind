@@ -58,7 +58,7 @@ const Mission = (props) => {
             non-governmental organization (NGO) sectors, and subject matter experts in a variety of areas within children's programs internationally.
               </p>
               <br></br>
-            
+              <br></br>
             </div>
           </div>
         </div>
@@ -69,20 +69,20 @@ const Mission = (props) => {
             {/* LEFT SIDE - Partner Links */}
             <div className="col-lg-5">
               <div className="partner-links">
-                <h3>
+                <h4>
                   <Link to="/childcenter">Child Guidance Center</Link>
-                </h3>
-                <h3>
+                </h4>
+                <h4>
                   <Link to="/cards">
                     Community & Rural Development Society (CARDS)
                   </Link>
-                </h3>
-                <h3>
+                </h4>
+                <h4>
                   <Link to="/asha">Aasha Jyothi Welfare</Link>
-                </h3>
-                <h3>
+                </h4>
+                <h4>
                   <Link to="/pavani">Pavani Special School</Link>
-                </h3>
+                </h4>
               </div>
             </div>
 

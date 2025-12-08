@@ -49,13 +49,13 @@ function ChildTrafficking() {
 
         {/* LEFT CONTENT on Desktop — BELOW on Mobile */}
         <div className="program-content">
-          <h1 style={{ color: "#1C191E" }} className="program-title">
+          <h1 style={{ color: "#1C191E"}} className="program-title" >
             Aims to bridge the <br />
             gaps in education and <br />
             healthcare
           </h1>
 
-          <p className="program-desc">
+          <p className="program-desc" >
             Children Left Behind conceived its goals to meet the pressing
             educational and medical needs of children who live without the crucial
             anchor of family, as well as those with family or caregivers who are
@@ -99,7 +99,7 @@ function ChildTrafficking() {
            style={{
                      borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
-            paddingBottom: "3px",
+            paddingBottom: "10px",
             width : "100vw",
             // position : "relative",
             // transform : "translate(-50%)",

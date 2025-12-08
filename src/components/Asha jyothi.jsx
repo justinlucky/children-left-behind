@@ -86,24 +86,24 @@ function Ashajyothi() {
                         </div>
                     </div>
                     <div className="p-6 space-y-6 leading-relaxed text-gray-800">
-                        <h3 className="sub-title">   OUR VISION</h3>
+                        <h5 className="sub-title">   VISION</h5>
                         <p className="description">
                             “We envision an environment where the disabled enjoy the same rights as all other citizens”
                         </p><br></br>
 
-                        <h3 className="sub-title">    OUR MISSION</h3>
+                        <h5 className="sub-title">    MISSION</h5>
                         <p className="description">
                             “Integration of the neglected children into the society”
                         </p><br></br>
 
-                        <h3 className="sub-title">Purpose</h3>
+                        <h5 className="sub-title">Purpose</h5>
                         <p className="description">
                             A registered, non-profit making voluntary organization actively working to promote the welfare and interest of disabled children and adults. “Impossible is Possible” is the motto of the organization
                         </p><br></br>
 
 
 
-                        <h3 className="sub-title">Background</h3>
+                        <h5 className="sub-title">Background</h5>
                         <p className="description">
                             Miryalaguda a Semi urban town having a population of 2.2 Lakhs. It is a highly industrialized and rapidly developing town in the State of Andhra Pradesh, India, and a very good commercial center in Telangana region. The left canal of Nagarjuna Sagar river runs through the town and makes its surroundings green. It ranked one among the top five paddy growing markets. In and around the town limestone is available abundantly as many cement-manufacturing factories such as Raasi Cement, India cements, Sagar Priya Cements, and Deccan Cements established their units here.<br></br><br></br>
 
@@ -111,7 +111,7 @@ function Ashajyothi() {
                             A group of philasphists joined together formed as a registered society and established “Aasha Jyothi Welfare Association for disabled” to take care of a such children and guide their parents
                         </p><br></br><br></br>
 
-                        <h3 className="sub-title">  OBJECTIVES </h3><br></br>
+                        <h5 className="sub-title">  OBJECTIVES </h5><br></br>
                         <p className="description">
                             <p>
                                 To provide for the mentally disabled, the benefits of care, treatment, education, training according to their abilities and to develop statutory and voluntary efforts on their behalf.<br></br>

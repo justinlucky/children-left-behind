@@ -48,19 +48,19 @@ function Pavani() {
                 <div className="container">
                     <PartnersEst />
                     <div className="p-6 space-y-6 leading-relaxed text-gray-800">
-                        <h3 className="sub-title">   OUR VISION</h3>
+                        <h5 className="sub-title">   VISION</h5>
                         <p className="description">
                             To empower children with intellectual disabilities and hearing impairments by providing quality education, skill development, therapeutic interventions, and pathways to independent and dignified living.
                         </p><br></br>
 
-                        <h3 className="sub-title">  MISSION</h3>
+                        <h5 className="sub-title">  MISSION</h5>
                         <p className="description">
                             o equip children with disabilities with essential life skills for improved quality of life.
                             To provide vocational training that enhances livelihood opportunities.
                             To create employment pathways through advocacy, capacity-building, and partnerships with government bodies, corporate entities, NGOs, and philanthropic organizations
                         </p><br></br>
 
-                        <h3 className="sub-title">Purpose</h3>
+                        <h5 className="sub-title">Purpose</h5>
                         <p className="description">
                             To empower mentally challenged children with life skill education.
                             To impart vocational education and enhance livelihood skills through job oriented courses.
@@ -70,7 +70,7 @@ function Pavani() {
 
 
 
-                        <h3 className="sub-title">Background</h3>
+                        <h5 className="sub-title">Background</h5>
                         <p className="description">
                             Pavani Special School endeavors to provide children with mental disabilities and hearing impairment with basic life skills that enrich their quality of life and also strives to equip them with the requisite skills to gain employment through vocational education.<br></br><br></br>
 
@@ -82,7 +82,7 @@ function Pavani() {
 
                         </p>
 
-                        <h3 className="sub-title">  Programs </h3><br></br>
+                        <h5 className="sub-title">  Programs </h5><br></br>
                         <p className="description">
                             <p>
                                 Free education and institutional training<br></br>

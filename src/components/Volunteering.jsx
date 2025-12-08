@@ -188,14 +188,32 @@ function Volunteering() {
 
           <section className="category-section container">
             {/* DESKTOP VIEW (no carousel) */}
-            <div className="category-desktop">
+            <div className="category-desktop"
+            
+            style={{ width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"}}
+            
+            >
               <div
                 className="category-list"
                 style={{
                   display: "flex",
                   gap: "40px",
-                  justifyContent: "center",
-                  alignItems: "center",
+                  // justifyContent: "center",
+                  // alignItems: "center",
+                    borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "10px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
                 }}
               >
                 {categories.map((item, i) => (
@@ -239,7 +257,7 @@ function Volunteering() {
           <br />
 
         
-          <h2
+          <h4
             style={{
               fontWeight: "600",
               fontSize: "32px",
@@ -249,7 +267,7 @@ function Volunteering() {
             className="sub-title"
           >
             Volunteering
-          </h2>
+          </h4>
 
           <div className="d-flex flex-wrap mt-4 gap-2">
             {Volunteering.map((item, index) => (

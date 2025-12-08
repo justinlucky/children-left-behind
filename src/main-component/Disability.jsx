@@ -57,17 +57,19 @@ function Disability() {
 
               
                 <div className="program-content">
-                    <h1 className="program-title">
+                    <h1 className="program-title" >
                         Aims to bridge the <br />
                         gaps in education and <br />
                         healthcare
                     </h1>
 
-                    <p className="program-desc">
+                    <p className="program-desc" >
                         Children Left Behind conceived its goals to meet the pressing
                         educational and medical needs of children who live without the crucial
                         anchor of family, as well as those with family or caregivers who are
                         unable to access the resources they need to flourish.
+                        <br></br>
+                        <br></br>
                     </p>
 
                 </div>

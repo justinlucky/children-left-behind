@@ -97,7 +97,7 @@ function NurturingPlaytime() {
          style={{
                      borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
-            paddingBottom: "3px",
+            paddingBottom: "10px",
             width : "100vw",
             // position : "relative",
             // transform : "translate(-50%)",

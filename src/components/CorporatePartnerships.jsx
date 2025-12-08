@@ -188,14 +188,32 @@ function CorporatePartnerships() {
 
           <section className="category-section container">
             {/* DESKTOP VIEW (no carousel) */}
-            <div className="category-desktop">
+            <div className="category-desktop"
+            style={{ width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"}}
+            
+            >
               <div
                 className="category-list"
                 style={{
                   display: "flex",
                   gap: "40px",
-                  justifyContent: "center",
-                  alignItems: "center",
+                  // justifyContent: "center",
+                  // alignItems: "center",
+                   borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "10px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
+
                 }}
               >
                 {categories.map((item, i) => (
@@ -241,7 +259,7 @@ function CorporatePartnerships() {
       
 
        
-          <h2
+          <h4
             style={{
               fontWeight: "600",
               fontSize: "32px",
@@ -251,7 +269,9 @@ function CorporatePartnerships() {
             className="sub-title"
           >
             Corporate Partnership
-          </h2>
+          </h4>
+          <br></br>
+          <br></br>
           <h2 className="corporate-des">
             Ranging from corporate volunteering at a local level, workplace giving<br /> programs to multi-faceted sponsor and partner programs. Here are some<br /> ways your company can be involved
             <br /></h2><br />
