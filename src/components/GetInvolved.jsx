@@ -22,6 +22,7 @@ import w3 from "../images/icons/Marketing.svg"
 import v1 from "../images/icons/email.svg";
 import v2 from "../images/icons/mic.png";
 import v3 from "../images/icons/host.svg"
+import  TiltCarousel from "./TiltCarousel"
 
 function GetInvolved() {
   const navigate = useNavigate();
@@ -722,11 +723,14 @@ function GetInvolved() {
               </p>
             </div>
           </div><br />
+           <TiltCarousel/>
 
-
+<br></br>
+<br></br>
+<br></br>
 
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <img src={img} alt="banner" style={{ width: "100%" }} />
+            {/* <img src={img} alt="banner" style={{ width: "100%" }} /> */}
           </div>
         </div>
 

@@ -70,6 +70,8 @@ function OurPartners() {
                Life at our partner organization is a journey from basic needs to<br/> boundless potential. Children receive not just shelter and food, but also<br/> the educational support and encouragement needed to explore their<br/> passions. Take a glimpse of the life changing stories of children here
               </p>
               <TiltCarousel/>
+              <br></br>
+              <br></br>
             </div>
           </div>
         </div>
