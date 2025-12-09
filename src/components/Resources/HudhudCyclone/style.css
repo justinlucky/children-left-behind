@@ -1,0 +1,32 @@
+.hudhud-gallery {
+  padding: 40px 0;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.gallery-text {
+  text-align: left;
+  font-weight: 400;   /* normal text */
+  font-size: 22px;
+  margin: 25px 0 15px;
+  color: #1c1c1c;
+}

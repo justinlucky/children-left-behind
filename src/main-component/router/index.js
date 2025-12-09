@@ -52,6 +52,7 @@ import OneTimeGiving from '../../components/OneTimeGiving';
 import LegacyGiving from '../../components/LegacyGiving';
 import Volunteering from '../../components/Volunteering';
 import AwarenessPrograms from '../../components/AwarenessPrograms';
+import HudhudCycloneRelief from "../../components/Resources/HudhudCyclone"
 
 
 const AllRoute = () => {
@@ -74,8 +75,7 @@ const AllRoute = () => {
           <Route path='volunteer' element={<VolunteerPage />} />
           <Route path='resources' element={<Resources />} />
           <Route path='Subscribe' element={<Subscribe />} />
-
-
+ <Route path='HudhudCycloneRelief' element={<HudhudCycloneRelief />} />
           <Route path='blog' element={<BlogPage />} />
           <Route path='faq' element={<Faq />} />
           <Route path='blog-left' element={<BlogPageLeft />} />

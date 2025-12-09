@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 import HeaderImg from "../../images/resources.png"; // Replace with your image
-import BlogSection from "../BlogSection";
+// import BlogSection from "../BlogSection";
 import Needs from "../needs";
-import styled from "styled-components"
+// import styled from "styled-components"
 
 const ResourcesPage = () => {
     return (
@@ -49,7 +49,14 @@ const ResourcesPage = () => {
     Disability Awareness Week Celebration
   </a>
                                 <p>CRAC Annual Day</p>
-                                <p>Hudhud Cyclone Relief</p>
+                                {/* <p>Hudhud Cyclone Relief</p> */}
+                                <a 
+  href="/HudhudCycloneRelief"
+  className="resource-link"
+>
+  Hudhud Cyclone Relief
+</a>
+
                                 {/* <p>Aasha School Activity</p> */}
                                   <a href="https://photos.google.com/share/AF1QipOEdoGusA4oEK8ec_6RXOv7nGs6PPvtewAam9QBYhUIZUeNUvmotmQn3hjcGUVqiA?key=NHRhQkh1RVZLTmNXRU0zSjk4S1ZPcEhQY25uNmlR" 
     target="_blank" 
@@ -142,10 +149,10 @@ const ResourcesPage = () => {
 export default ResourcesPage;
 
 
-const textWrapper = styled.div`
-  font-weight: 600 !important;
-  color: #1C191E !important;
-  font-size: 52px !important;
-  line-height: 44px !important;
-  letter-spacing: 2% !important;
-`;
+// const textWrapper = styled.div`
+//   font-weight: 600 !important;
+//   color: #1C191E !important;
+//   font-size: 52px !important;
+//   line-height: 44px !important;
+//   letter-spacing: 2% !important;
+// `;
