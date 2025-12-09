@@ -36,11 +36,28 @@ const ResourcesPage = () => {
 
                         <div className="section-content">
                             <div className="year-block">
+                                <br></br>
+                                 <br></br>
+                                  <br></br>
                                 <h3>2017</h3>
-                                <p>Disability Awareness Week Celebration</p>
+                                {/* <p>Disability Awareness Week Celebration</p> */}
+                                <a href="https://photos.google.com/share/AF1QipNBHNi83wCYNo_BsGeJfVMZNOTLEMCFUy4EtwrE2Fl70dFsPA_3ZS4I2rP37m_FDQ?key=aU9uQ1Vxd21FcUxtekZ4ZXRZbmIzZFNIUFhPcjZB" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="resource-link"
+  > 
+    Disability Awareness Week Celebration
+  </a>
                                 <p>CRAC Annual Day</p>
                                 <p>Hudhud Cyclone Relief</p>
-                                <p>Aasha School Activity</p>
+                                {/* <p>Aasha School Activity</p> */}
+                                  <a href="https://photos.google.com/share/AF1QipOEdoGusA4oEK8ec_6RXOv7nGs6PPvtewAam9QBYhUIZUeNUvmotmQn3hjcGUVqiA?key=NHRhQkh1RVZLTmNXRU0zSjk4S1ZPcEhQY25uNmlR" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="resource-link"
+  > 
+    Aasha School Activity
+  </a>
                             </div>
 
                             <div className="year-block">
@@ -57,7 +74,7 @@ const ResourcesPage = () => {
 
                     {/* ========= VIDEO GALLERY ========= */}
                     <div className="resource-section">
-                        <h5 className="section-title">Video Gallery</h5>
+                        <h5 className="section-title1">Video Gallery</h5>
 
                         <div className="section-content">
                             <div className="year-block">
@@ -88,7 +105,7 @@ const ResourcesPage = () => {
 
                     {/* ========= BROCHURE ========= */}
                     <div className="resource-section">
-                        <h5 className="section-title">Brochure</h5>
+                        <h5 className="section-title2">Brochure</h5>
 
                         <div className="section-content">
                             <p>Children Left-Behind Brochure</p>
@@ -97,7 +114,7 @@ const ResourcesPage = () => {
 
                     {/* ========= FLYERS ========= */}
                     <div className="resource-section">
-                        <h5 className="section-title">Flyers</h5>
+                        <h5 className="section-title3">Flyers</h5>
 
                         <div className="section-content">
                             <p>Children Left-Behind Flyer</p>
@@ -106,7 +123,7 @@ const ResourcesPage = () => {
 
                     {/* ========= PRESS RELEASE ========= */}
                     <div className="resource-section">
-                        <h5 className="section-title">Press Releases</h5>
+                        <h5 className="section-title4">Press Releases</h5>
 
                         <div className="section-content">
                             <p className="coming-soon">Coming Soon!</p>
