@@ -49,7 +49,7 @@ import img5 from "../../images/slider/img-1.jpg";
 
 const SubscribePage = () => {
     return (
-        <div className="resources-page">
+        <div className="subscribe-page">
             <div className="image-wrapper">
                 <img src={img5} alt="Coming Soon" className="org-image" />
 
