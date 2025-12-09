@@ -48,9 +48,14 @@
     transition: 0.3s ease;  /* smooth color change */
     font-size: 24px;
 }
+.wpo-mission-wrap .partner-links h4 a:hover {
+    color: blue !important;
+    cursor: pointer;
+}
 
 .wpo-mission-wrap .partner-links h3 a:hover {
-    color: #91278f !important;   /* hover color */
+    color: #3d2dce !important;
+     cursor: pointer;
 }
 
 .wpo-mission-item p {
