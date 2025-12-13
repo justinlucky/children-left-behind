@@ -84,11 +84,16 @@ function StayInformed() {
             <section className="wpo-about-area stay">
                 <div className="container" style={bg}>
                     <div className="row align-items-center">
-                        <div className="col-md-6" style={{paddingLeft: "80px"}}>
+                        {/* <div className="col-md-6" style={{paddingLeft: "80px"}}>
                             <h2 className="wpo-section-title about">Hard truths of children in India </h2>
                             <p>In India, countless children endure the harsh realities. By learning about their lives and challenges, we can foster awareness and take meaningful steps to support these children, helping to alleviate their struggles and pave the way for a better tomorrow.</p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6"> */}
+                        <div className="col-md-6" style={{paddingLeft: "110px",marginTop:"140px",marginBottom:"60px"}}>
+                            <h2 className="wpo-section-title about">Hard truths of children in India </h2>
+                            <p>In India, countless children endure the harsh realities. By learning about their lives and challenges, we can foster awareness and take meaningful steps to support these children, helping to alleviate their struggles and pave the way for a better tomorrow.</p>
+                        </div>
+                        <div className="col-md-6" style={{marginBottom: "-162px"}}>
                             <img src={heroImg} alt="" />
                         </div>
                     </div>
@@ -184,7 +189,8 @@ function StayInformed() {
                         <li>Life expectancy at birth (male): 63.9 years.</li>
                         <li >Life expectancy at birth (female): 63 years.</li>
                     </ul>
-
+<br></br>
+<br></br>
 
                 </main>
 
