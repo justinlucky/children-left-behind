@@ -84,7 +84,7 @@ function GetInvolved() {
       {/* 🌟 HERO SECTION */}
       <div className="program-hero">
         <div className="program-image-box">
-          <img src={img1} alt="hero" className="program-image" />
+          <img src={img1} alt="hero" className="program-image" style={{marginRight: "-94px", marginBottom: "-175px"}} />
         </div>
 
         <div className="program-content">
@@ -176,13 +176,17 @@ function GetInvolved() {
 
               <div className="involved-right">
                 <div className="involved-item">
-                  <img src={ind} alt="Individual" />
+                  <img src={ind} alt="Individual"  style={{marginLeft:"-99px", width:"356px", heigth: "210px"}}/>
+                  <div style ={{marginLeft: "-86px"}}>
                   <p>Individual</p>
+                  </div>
                 </div>
 
                 <div className="involved-item">
-                  <img src={emp} alt="Corporate Employer" />
-                  <p>Corporate Employer</p>
+                  <img src={emp} alt="Corporate Employer" style={{marginLeft:"-210px", width:"480px", heigth: "210px"}} />
+                  <div style ={{marginLeft: "-212px"}}>
+                  <p>Corporate / Employer</p>
+                  </div>
                 </div>
               </div>
             </div>

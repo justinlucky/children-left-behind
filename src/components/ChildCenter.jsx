@@ -282,6 +282,8 @@ function ChildCenter() {
                             <p>
                                 The Community Health Shelters are presently functioning in the district of Guntur. These shelters have been established to promote health care of the people in the community. The project aims at providing proper medical amenities to the people of the village and improve their health conditions by educating them about hygiene and sanitation. The shelters offer preliminary tests for common diseases among the people. The Community Health Shelter primarily offers basic first aid for physical and mental ailments.
                             </p>
+                            <br></br>
+                            <br></br>
                         </div>
                     </div>
 

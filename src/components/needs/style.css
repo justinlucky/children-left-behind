@@ -68,14 +68,14 @@
 }
 .needs .needs-img img{
   position: absolute;
-  top:-110px;
+  top:-170px;
   right:-12%;
 }
 .dino-icon {
-  width: 120px;
+  width: 196px;
   margin-top: 40px;
   opacity: 0.8;
-  margin-left:-40px;
+  margin-left:-210px;
 }
 
 /* Responsive */

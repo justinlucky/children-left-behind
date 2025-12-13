@@ -22,41 +22,17 @@ function ContactUs() {
 
   return (
     <>
-      {/* <section className="hero-section" style={{ position: "relative" }}>
+    
 
-      
-        <img
-          src={isMobile ? heroMobile : heroDesktop}
-          alt="Hero"
-          style={{
-            width: "100%",
-            height: "auto",
-            display: "block",
-          }}
-        />
-      </section> */}
-
-      {/* <div className="resource-header container">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <h1 className="res-title">Get in touch with us!</h1>
-            <p className="res-desc">
-             We're available to provide assistance and address any inquiries you may have. Feel free to connect with us.
-            </p>
-          </div>
-          <div className="col-lg-6 text-center">
-            <img src={img} alt="Resources" className="header-img" />
-          </div>
-        </div>
-      </div> */}
+    
 
       <div style={{ backgroundColor: '#F8F0FF', borderRadius: "6px", paddingLeft: '80px' }}
         className="resource-header container">
         <div className="row align-items-center flex-column-reverse flex-md-row">
           {/* LEFT SIDE — TEXT + CONTACT DETAILS */}
           <div className="col-md-6 col-12 mt-4 mt-md-0">
-            <h1 className="res-title">Get in touch with us!</h1>
-            <p className="res-desc">
+            <h1 className="res-title" style={{marginLeft: "2px"}}>Get in touch with us!</h1>
+            <p className="res-desc" style={{marginLeft: "2px"}}>
               We're available to provide assistance and address any inquiries you may have.
               Feel free to connect with us.
             </p>
@@ -111,7 +87,7 @@ function ContactUs() {
 
           <h5 className="contact-title">We’d love to hear from you</h5>
           <p className="contact-subtitle">
-            Contact us regarding any concerns or inquiries.
+            Contact us regarding any <br></br>concerns or inquiries.
           </p>
 
           {/* First/Last Name */}

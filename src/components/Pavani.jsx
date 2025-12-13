@@ -140,7 +140,8 @@ function Pavani() {
 
                             The school started receiving grant in aid from the Ministry of Social Justice and Empowerment, Government of India from the year 2000.
                         </p>
-
+<br></br>
+<br></br>
 
 
 
