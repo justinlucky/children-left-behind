@@ -76,15 +76,15 @@ z-index:99;
       margin: auto;
 }
 .hero-style-3.hero .container .hero-layer-2{
-        top: 25%;
-    width: 750px;
+        top: 21%;
+    width: 800px;
     right:-10%;
     margin: auto;
 }
 .hero-style-3.hero .container .hero-layer-3{
         top: 210%;
         left:-10%;
-    width: 900px;
+    width: 770px;
     margin: auto;
 }
 @media(max-width:992px){

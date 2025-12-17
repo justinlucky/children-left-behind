@@ -10,8 +10,8 @@ const About = () => {
   return (
     <div className="needs-wrapper">
  <CurvedText/>
-      <div className="container needs">
-        <div className="row align-items-center">
+      <div className="container needs" >
+        <div className="row align-items-center" >
           {/* LEFT CONTENT */}
           <div className="col-lg-6 col-md-12" style={{paddingLeft:"188px"}}>
             <div style={{marginleft:"104px"}}>

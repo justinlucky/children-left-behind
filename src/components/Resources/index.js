@@ -149,10 +149,3 @@ const ResourcesPage = () => {
 export default ResourcesPage;
 
 
-// const textWrapper = styled.div`
-//   font-weight: 600 !important;
-//   color: #1C191E !important;
-//   font-size: 52px !important;
-//   line-height: 44px !important;
-//   letter-spacing: 2% !important;
-// `;

@@ -13,17 +13,17 @@ const Hero3 = (props) => {
             <div className="hero-slider">
                 <div className="slide">
                     <div className="container">
-                        <div className="hero-layer-1">
+                        <div className="hero-layer-1" style={{marginTop: "-60px"}}>
                             <img src={Layer1} alt=""/>
                                 </div>
-                               <div className="hero-layer-2">
+                               <div className="hero-layer-2" style={{marginTop: "-20px", marginLeft:"225px"}}>
                                <img src={Layer2} alt=""/>
                                </div>
-                               <div className="hero-layer-3">
+                               <div className="hero-layer-3" style={{marginTop: "-1230px", marginLeft: "250px"}}>
                                <img src={Layer3} alt=""/>
                                </div>
 
-                        <div className="row align-items-center justify-content-center">
+                        <div className="row align-items-center justify-content-center" style={{backgroundColor: "#fff"}}>
                             <div className="col col-lg-10 slide-caption">
                                 
                                 <div className="slide-title">

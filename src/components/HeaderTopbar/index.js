@@ -8,8 +8,8 @@ import ContactUs from '../ContactUs'
 const HeaderTopbar = () => {
     return(	
         <div className="topbar">
-            <div className="container">
-                <div className="row align-items-center">
+            <div className="container" >
+                <div className="row align-items-center" style={{backgroundColor: "#fff"}}>
                     <div className="col-lg-6 col-md-5 col-sm-5 col-5">
                     <div className="logo">
                         <Link to="/" title=""><img src={Logo} alt=""/></Link>
